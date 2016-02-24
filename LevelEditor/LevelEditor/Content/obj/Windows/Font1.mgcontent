@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Font1.spritefont</SourceFile>
+  <SourceTime>2015-04-27T23:15:47+02:00</SourceTime>
+  <DestFile>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LevelEditor/LevelEditor/Content/bin/Windows/Font1.xnb</DestFile>
+  <DestTime>2016-01-16T16:10:10.3979056+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-04-29T19:14:44+02:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-04-29T19:14:44+02:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

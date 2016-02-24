@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/blackPause.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/fade.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Font1.spritefont</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/null.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/player.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Maps/Chapter1/Level1.1/Fond900.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Maps/Chapter1/Level1.1/Zone1/Avant1.1.1.png</File>
+    <File>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Maps/Chapter1/Level1.1/Zone1/level1.1.1900.png</File>
+  </SourceFiles>
+</SourceFileCollection>

@@ -1,0 +1,7 @@
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\bin\WindowsGL\Release\MonoGame.Framework.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\bin\WindowsGL\Release\OpenTK.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\obj\x86\Release\Farseer Physics MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.pdb

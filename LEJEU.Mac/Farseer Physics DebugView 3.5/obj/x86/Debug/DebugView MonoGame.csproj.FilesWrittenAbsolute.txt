@@ -1,0 +1,32 @@
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/OpenTK.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/Content/Font.xnb
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/Content/Font.xnb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/OpenTK.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/Tao.Sdl.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/Content/Font.xnb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/obj/x86/Debug/DebugView MonoGame.dll.mdb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics DebugView 3.5/bin/WindowsGL/Debug/OpenTK.dll

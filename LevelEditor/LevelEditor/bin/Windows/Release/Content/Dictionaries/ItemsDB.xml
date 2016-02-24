@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Group name="Other" img="Content/Icons/collisions.png">
+    <Item id="Checkpoint" img="Content/Icons/Checkpoint.png"/>
+  </Group>
+  <Group name="Jungle" img="Content/Ennemies/BubbleThumbnail.png">
+  </Group>"
+  
+</Items>

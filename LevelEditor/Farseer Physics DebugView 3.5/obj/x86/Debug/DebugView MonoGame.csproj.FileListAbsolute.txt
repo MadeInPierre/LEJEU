@@ -1,0 +1,119 @@
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\OpenTK.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+D:\Users\pierrelaclau\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\OpenTK.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\Content\Font.xnb
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\DebugView MonoGame.pdb
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.MediaFoundation.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XAudio2.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D11.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.DXGI.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct2D1.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.XInput.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.RawInput.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\SharpDX.Direct3D9.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\bin\WindowsGL\Debug\MonoGame.Framework.xml
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.dll
+C:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LevelEditor\Farseer Physics DebugView 3.5\obj\x86\Debug\DebugView MonoGame.pdb

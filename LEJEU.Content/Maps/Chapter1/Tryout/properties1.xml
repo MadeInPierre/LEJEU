@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+    <GeneralSettings>
+        <LevelBasePath>Maps/Chapter1/Tryout/</LevelBasePath>
+        <MainSpawns>
+            <PlayerSpawn X="0" Y="1" />
+            <EndSpawn X="1" Y="1" />
+        </MainSpawns>
+        <Sound>
+            <SoundtrackPath>gggggggggggg</SoundtrackPath>
+        </Sound>
+        <Weather>Sunny</Weather>
+        <NZones>4</NZones>
+        <NBacks>0</NBacks>
+        <BackSpeed>0</BackSpeed>
+        <NYears>1000</NYears>
+        <TTS>1000</TTS>
+    </GeneralSettings>
+    <BaseCollisions>
+        <Circles />
+        <Rectangles />
+        <Polygons />
+        <Edges />
+        <EdgeChains />
+    </BaseCollisions>
+    <Scenarios>
+        <Scenario>
+            <StartTime>0</StartTime>
+            <EndTime>50</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="7.231698" Y="9.18036" />
+                            <Rotation>0</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Polygon">
+                                    <Polygon>
+                                        <Vertices>
+                                            <vert X="7.25335" Y="10.21965" />
+                                            <vert X="5.477903" Y="10.65268" />
+                                            <vert X="5.997546" Y="11.71362" />
+                                            <vert X="8.076118" Y="11.60536" />
+                                            <vert X="9.050448" Y="10.71764" />
+                                            <vert X="7.534823" Y="10.21965" />
+                                        </Vertices>
+                                    </Polygon>
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="22.25804" Y="6.192413" />
+                            <Rotation>0</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Circle">
+                                    <Circle X="21.88996" Y="4.11384" radius="1.22806" />
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="6.322323" Y="2.360045" />
+                            <Rotation>0</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Rectangle">
+                                    <Rectangle X="6.387278" Y="3.583372" width="4.850001" height="0.5412947" angle="0" />
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                    </Traps>
+                    <Decorations>
+                        <Decoration id="Bottle">
+                            <Position X="2.55852" Y="17.53796" />
+                            <Rotation>0.6</Rotation>
+                            <Direction inverted="false" />
+                        </Decoration>
+                        <Decoration id="Bottle">
+                            <Position X="6.542452" Y="15.91406" />
+                            <Rotation>-0.15</Rotation>
+                            <Direction inverted="false" />
+                        </Decoration>
+                        <Decoration id="Bottle">
+                            <Position X="16.10172" Y="14.53917" />
+                            <Rotation>1</Rotation>
+                            <Direction inverted="false" />
+                        </Decoration>
+                    </Decorations>
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="26.24196" Y="8.725671" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>4.100001</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="23.64376" Y="8.790625" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>2.700002</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumbli">
+                    <Age>0</Age>
+                    <Position X="30.89711" Y="15.50268" />
+                    <Direction inverted="false" />
+                    <IAAux type="DualWaypoints">
+                        <WP1 X="30.2191" Y="11.74478" />
+                        <WP2 X="31.20702" Y="11.74477" />
+                    </IAAux>
+                </Enemy>
+                <Enemy id="BulleSpawner">
+                    <Age>0</Age>
+                    <Position X="65.63379" Y="19.65983" />
+                    <Direction inverted="false" />
+                    <IAAux type="ActivationZone">
+                        <Object type="Circle">
+                            <Circle X="64.96259" Y="9.223662" radius="1.114595" />
+                        </Object>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="BulleSpawner">
+                    <Age>0</Age>
+                    <Position X="59.26817" Y="19.70313" />
+                    <Direction inverted="false" />
+                    <IAAux type="ActivationZone">
+                        <Object type="Rectangle">
+                            <Rectangle X="58.87843" Y="8.011163" width="4.157142" height="1.125893" angle="0" />
+                        </Object>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Pic">
+                    <Age>0</Age>
+                    <Position X="47.68446" Y="9.505136" />
+                    <Direction inverted="false" />
+                    <IAAux type="Path">
+                        <Vertices>
+                            <vert X="50.30433" Y="6.508873" />
+                            <vert X="54.56973" Y="3.564228" />
+                            <vert X="60.39406" Y="4.018916" />
+                            <vert X="58.9867" Y="8.847265" />
+                            <vert X="61.69316" Y="10.83923" />
+                            <vert X="66.2617" Y="12.09503" />
+                            <vert X="65.93692" Y="16.46869" />
+                            <vert X="61.80143" Y="17.55128" />
+                            <vert X="54.50478" Y="18.87205" />
+                            <vert X="50.65075" Y="17.20485" />
+                            <vert X="43.54897" Y="19.37004" />
+                            <vert X="40.36615" Y="18.3091" />
+                            <vert X="40.84249" Y="16.27383" />
+                            <vert X="44.80477" Y="16.25218" />
+                            <vert X="49.11348" Y="11.35887" />
+                        </Vertices>
+                    </IAAux>
+                </Enemy>
+            </Enemies>
+            <Sectors>
+                <Sector id="IMPLEMENT A SECTOR DICTIONARY + ID ?">
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="139.212" Y="6.712055" />
+                                <vert X="140.9008" Y="6.365627" />
+                                <vert X="142.8711" Y="6.322323" />
+                                <vert X="143.9754" Y="7.8596" />
+                                <vert X="143.5857" Y="8.985494" />
+                                <vert X="143.7372" Y="10.30625" />
+                                <vert X="144.5816" Y="12.0817" />
+                                <vert X="145.3828" Y="12.77456" />
+                                <vert X="144.0403" Y="16.41206" />
+                                <vert X="144.2136" Y="18.05759" />
+                                <vert X="142.4381" Y="19.01027" />
+                                <vert X="139.147" Y="16.91005" />
+                                <vert X="137.1767" Y="17.10492" />
+                                <vert X="135.9209" Y="18.53393" />
+                                <vert X="133.6258" Y="18.57724" />
+                                <vert X="132.2185" Y="16.2605" />
+                                <vert X="133.4959" Y="15.06965" />
+                                <vert X="134.3187" Y="13.20759" />
+                                <vert X="133.7124" Y="12.0817" />
+                                <vert X="133.1495" Y="10.60938" />
+                                <vert X="134.6002" Y="9.115404" />
+                                <vert X="134.1888" Y="7.25335" />
+                                <vert X="135.9859" Y="6.40893" />
+                                <vert X="137.4149" Y="7.361609" />
+                            </Vertices>
+                        </Polygon>
+                    </CollisionObject>
+                    <Effects>
+                        <Effect>DAMAGE 2 23</Effect>
+                    </Effects>
+                </Sector>
+                <Sector id="IMPLEMENT A SECTOR DICTIONARY + ID ?">
+                    <CollisionObject type="Rectangle">
+                        <Rectangle X="140.4678" Y="4.492747" width="6.062509" height="1.537277" angle="0" />
+                    </CollisionObject>
+                    <Effects />
+                </Sector>
+                <Sector id="IMPLEMENT A SECTOR DICTIONARY + ID ?">
+                    <CollisionObject type="Circle">
+                        <Circle X="134.9249" Y="4.546875" radius="1.256923" />
+                    </CollisionObject>
+                    <Effects>
+                        <Effect>KILL</Effect>
+                    </Effects>
+                </Sector>
+                <Sector id="IMPLEMENT A SECTOR DICTIONARY + ID ?">
+                    <CollisionObject type="Edge">
+                        <Edge>
+                            <Vertices>
+                                <WP1 X="136.354" Y="0.9526789" />
+                                <WP2 X="142.9361" Y="0.931027" />
+                            </Vertices>
+                        </Edge>
+                    </CollisionObject>
+                    <Effects />
+                </Sector>
+            </Sectors>
+        </Scenario>
+        <Scenario>
+            <StartTime>200</StartTime>
+            <EndTime>250</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies />
+            <Sectors />
+        </Scenario>
+        <Scenario>
+            <StartTime>950</StartTime>
+            <EndTime>1000</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies />
+            <Sectors />
+        </Scenario>
+    </Scenarios>
+    <TravelEntities>
+        <TravelEnemies>
+            <Enemy id="Schrumbli">
+                <SpawnDate>66</SpawnDate>
+                <Position X="102.009" Y="8.79765" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="99.29568" Y="5.645992" />
+                    <WP2 X="104.7222" Y="5.645992" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>114</SpawnDate>
+                <Position X="114.9998" Y="4.115881" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>114</SpawnDate>
+                <Position X="87.37315" Y="7.532308" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>159</SpawnDate>
+                <Position X="95.89314" Y="2.977073" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="BulleSpawner">
+                <SpawnDate>303</SpawnDate>
+                <Position X="117.0665" Y="18.24555" />
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="117.0876" Y="13.81685" width="6.115827" height="0.927918" angle="0" />
+                    </Object>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Bulle">
+                <SpawnDate>318</SpawnDate>
+                <Position X="116.7713" Y="12.21408" />
+                <Direction inverted="false" />
+                <IAAux />
+            </Enemy>
+            <Enemy id="Pic">
+                <SpawnDate>368</SpawnDate>
+                <Position X="113.4814" Y="2.513113" />
+                <Direction inverted="false" />
+                <IAAux type="Path">
+                    <Vertices>
+                        <vert X="108.7153" Y="2.049154" />
+                        <vert X="108.1248" Y="6.435677" />
+                        <vert X="113.0596" Y="8.122801" />
+                        <vert X="119.6394" Y="6.393499" />
+                        <vert X="119.8925" Y="4.579841" />
+                        <vert X="120.3986" Y="3.398854" />
+                        <vert X="122.7606" Y="3.736279" />
+                        <vert X="123.1824" Y="7.02617" />
+                        <vert X="120.3986" Y="9.641212" />
+                        <vert X="113.7345" Y="10.52695" />
+                        <vert X="107.7874" Y="10.40042" />
+                        <vert X="101.5028" Y="8.628939" />
+                        <vert X="95.5557" Y="8.291512" />
+                        <vert X="93.02502" Y="8.924186" />
+                        <vert X="88.76503" Y="9.72557" />
+                        <vert X="86.27652" Y="7.701019" />
+                        <vert X="87.37315" Y="5.001623" />
+                        <vert X="91.84403" Y="2.977073" />
+                        <vert X="102.3464" Y="2.934895" />
+                        <vert X="106.6064" Y="2.386579" />
+                    </Vertices>
+                </IAAux>
+            </Enemy>
+        </TravelEnemies>
+        <TravelTraps>
+            <Trap id="SpikesBar">
+                <SpawnDate>77</SpawnDate>
+                <Position X="101.0958" Y="2.381697" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="101.0958" Y="2.381697" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>100</SpawnDate>
+                <Position X="108.4574" Y="2.165179" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="108.4574" Y="2.165179" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>175</SpawnDate>
+                <Position X="103.5858" Y="2.05692" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="103.5858" Y="2.05692" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>338</SpawnDate>
+                <Position X="87.99649" Y="11.15067" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Circle">
+                        <Circle X="88.86256" Y="8.768975" radius="2.420744" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>514</SpawnDate>
+                <Position X="99.47193" Y="11.69197" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="99.81475" Y="9.274187" />
+                                <vert X="91.58707" Y="5.809899" />
+                                <vert X="88.98886" Y="9.598964" />
+                                <vert X="90.50449" Y="13.92932" />
+                                <vert X="101.0056" Y="15.76972" />
+                                <vert X="105.8773" Y="13.06325" />
+                                <vert X="105.8773" Y="8.083337" />
+                                <vert X="103.9286" Y="7.758557" />
+                                <vert X="101.3304" Y="9.274187" />
+                            </Vertices>
+                        </Polygon>
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>592</SpawnDate>
+                <Position X="112.896" Y="12.77456" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="112.896" Y="12.77456" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>656</SpawnDate>
+                <Position X="109.3235" Y="8.22768" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="109.3235" Y="8.22768" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+            <Trap id="SpikesBar">
+                <SpawnDate>627</SpawnDate>
+                <Position X="105.751" Y="4.763394" />
+                <Rotation>0</Rotation>
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="105.751" Y="4.763394" width="8.066351" height="3.421801" angle="0" />
+                    </Object>
+                </IAAux>
+            </Trap>
+        </TravelTraps>
+        <TravelDecos />
+    </TravelEntities>
+    <TCCs>
+        <TCC name="RocherBloquantLaSortie">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>750</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>Maps/Chapter1/Tryout/TTCs/SF1/state1.png</Path>
+                        <Position X="19" Y="17" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="20.95893" Y="15.75168" />
+                                <vert X="21.68427" Y="15.74085" />
+                                <vert X="22.3663" Y="16.8884" />
+                                <vert X="22.64777" Y="17.78695" />
+                                <vert X="22.60447" Y="18.53394" />
+                                <vert X="21.60849" Y="19.41083" />
+                                <vert X="21.45692" Y="20.62333" />
+                                <vert X="20.60168" Y="20.75324" />
+                                <vert X="20.13617" Y="20.33103" />
+                                <vert X="19.97378" Y="19.9846" />
+                                <vert X="19.97378" Y="18.02512" />
+                                <vert X="19.91965" Y="17.02913" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>0</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+    </TCCs>
+</Level>

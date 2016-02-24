@@ -1,0 +1,21 @@
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Desktop/LEJEU/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/OpenTK.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Desktop/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/OpenTK.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/obj/x86/Debug/FarseerPhysics MonoGame.dll.mdb
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/MonoGame.Framework.dll
+/Users/pierrelaclau/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/Farseer Physics Engine 3.5/bin/WindowsGL/Debug/OpenTK.dll

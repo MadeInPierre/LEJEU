@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEJEU.WindowsDX", "LEJEU.WindowsDX\LEJEU.WindowsDX.csproj", "{F6A3B308-9E42-4E26-9D82-423A4D6BBDA2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LEJEU.Shared", "..\LEJEU.Shared\LEJEU.Shared.shproj", "{C269162F-354B-4E94-A9CF-99F3313CA406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer Physics MonoGame", "Farseer Physics Engine 3.5\Farseer Physics MonoGame.csproj", "{0AAD36E3-51A5-4A07-AB60-5C8A66BD38B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugView MonoGame", "Farseer Physics DebugView 3.5\DebugView MonoGame.csproj", "{566F1803-90B5-4947-8730-57F092FBB002}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LEJEU.Entities", "..\LEJEU.Entities\LEJEU.Entities.shproj", "{FF993BA3-F365-4ABA-94E8-D50DCB0D87C2}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\LEJEU.Entities\LEJEU.Entities.projitems*{ff993ba3-f365-4aba-94e8-d50dcb0d87c2}*SharedItemsImports = 13
+		..\LEJEU.Entities\LEJEU.Entities.projitems*{f6a3b308-9e42-4e26-9d82-423a4d6bbda2}*SharedItemsImports = 4
+		..\LEJEU.Shared\LEJEU.Shared.projitems*{f6a3b308-9e42-4e26-9d82-423a4d6bbda2}*SharedItemsImports = 4
+		..\LEJEU.Shared\LEJEU.Shared.projitems*{c269162f-354b-4e94-a9cf-99f3313ca406}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A3B308-9E42-4E26-9D82-423A4D6BBDA2}.Debug|x86.ActiveCfg = Debug|x86
+		{F6A3B308-9E42-4E26-9D82-423A4D6BBDA2}.Debug|x86.Build.0 = Debug|x86
+		{F6A3B308-9E42-4E26-9D82-423A4D6BBDA2}.Release|x86.ActiveCfg = Release|x86
+		{F6A3B308-9E42-4E26-9D82-423A4D6BBDA2}.Release|x86.Build.0 = Release|x86
+		{0AAD36E3-51A5-4A07-AB60-5C8A66BD38B7}.Debug|x86.ActiveCfg = Debug|x86
+		{0AAD36E3-51A5-4A07-AB60-5C8A66BD38B7}.Debug|x86.Build.0 = Debug|x86
+		{0AAD36E3-51A5-4A07-AB60-5C8A66BD38B7}.Release|x86.ActiveCfg = Release|x86
+		{0AAD36E3-51A5-4A07-AB60-5C8A66BD38B7}.Release|x86.Build.0 = Release|x86
+		{566F1803-90B5-4947-8730-57F092FBB002}.Debug|x86.ActiveCfg = Debug|x86
+		{566F1803-90B5-4947-8730-57F092FBB002}.Debug|x86.Build.0 = Debug|x86
+		{566F1803-90B5-4947-8730-57F092FBB002}.Release|x86.ActiveCfg = Release|x86
+		{566F1803-90B5-4947-8730-57F092FBB002}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

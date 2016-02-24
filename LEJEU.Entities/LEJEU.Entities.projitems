@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ff993ba3-f365-4aba-94e8-d50dcb0d87c2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LEJEU.Entities</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Bulle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\BulleSpawner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Pic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Schrumble.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Schrumbli.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\GameObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\IAActivatedObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\Trap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Traps\SpikesBar.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+    <GeneralSettings>
+        <LevelBasePath>Maps/Chapter1/Tryout/</LevelBasePath>
+        <MainSpawns>
+            <PlayerSpawn X="1" Y="2" />
+            <EndSpawn X="2" Y="2" />
+            <GoalSpawn X="3" Y="2" />
+        </MainSpawns>
+        <Sound>
+            <SoundtrackPath>musicPath</SoundtrackPath>
+        </Sound>
+        <Weather>Sunny</Weather>
+        <NZones>4</NZones>
+        <NBacks>0</NBacks>
+        <BackSpeed>0</BackSpeed>
+        <NYears>1000</NYears>
+        <TTS>1000</TTS>
+    </GeneralSettings>
+    <BaseCollisions>
+        <Circles />
+        <Rectangles>
+            <Rectangle X="6,555474" Y="3,136006" width="6,425272" height="0,2239032" angle="0,04">
+                <CollisionType>Solid</CollisionType>
+            </Rectangle>
+            <Rectangle X="8,142768" Y="9,997803" width="8,844186" height="0,2099089" angle="0">
+                <CollisionType>Solid</CollisionType>
+            </Rectangle>
+        </Rectangles>
+        <Polygons>
+            <Polygon>
+                <Vertices>
+                    <vert X="76,31078" Y="5,976096" />
+                    <vert X="77,45953" Y="5,976096" />
+                    <vert X="78,44626" Y="6,550458" />
+                    <vert X="79,50662" Y="7,551913" />
+                    <vert X="79,49187" Y="8,494459" />
+                    <vert X="79,99261" Y="9,643185" />
+                    <vert X="80,16933" Y="11,38101" />
+                    <vert X="80,93515" Y="12,24991" />
+                    <vert X="81,20025" Y="13,13355" />
+                    <vert X="81,28869" Y="13,9141" />
+                    <vert X="81,36224" Y="15,16591" />
+                    <vert X="81,08245" Y="15,53409" />
+                    <vert X="79,62443" Y="16,18209" />
+                    <vert X="78,88805" Y="16,65337" />
+                    <vert X="78,38733" Y="17,09519" />
+                    <vert X="77,50369" Y="18,43537" />
+                    <vert X="76,78209" Y="19,00973" />
+                    <vert X="74,72025" Y="19,03919" />
+                    <vert X="73,96917" Y="18,87719" />
+                    <vert X="72,08408" Y="18,023" />
+                    <vert X="70,74388" Y="17,74319" />
+                    <vert X="68,99136" Y="17,44864" />
+                    <vert X="67,57751" Y="16,96264" />
+                    <vert X="67,20933" Y="16,65337" />
+                    <vert X="67,1946" Y="15,88755" />
+                    <vert X="68,18133" Y="15,69609" />
+                    <vert X="68,78514" Y="15,32791" />
+                    <vert X="70,71442" Y="13,39864" />
+                    <vert X="71,65697" Y="13,2661" />
+                    <vert X="72,67315" Y="13,811" />
+                    <vert X="73,30643" Y="14,25282" />
+                    <vert X="74,70554" Y="14,23809" />
+                    <vert X="76,08987" Y="13,59009" />
+                    <vert X="76,57588" Y="13,45755" />
+                    <vert X="77,35643" Y="12,63282" />
+                    <vert X="77,44479" Y="11,58719" />
+                    <vert X="77,60679" Y="10,82137" />
+                    <vert X="77,62151" Y="9,746277" />
+                    <vert X="76,98824" Y="7,419368" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="75,00118" Y="-0,2161642" />
+                    <vert X="75,47752" Y="1,104595" />
+                    <vert X="75,44501" Y="1,429372" />
+                    <vert X="76,11623" Y="2,360398" />
+                    <vert X="76,57094" Y="3,269774" />
+                    <vert X="77,52361" Y="2,717654" />
+                    <vert X="77,52361" Y="0,9855102" />
+                    <vert X="76,98232" Y="-0,2378162" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="79,82164" Y="21,48042" />
+                    <vert X="79,84329" Y="20,14884" />
+                    <vert X="80,33044" Y="19,03378" />
+                    <vert X="81,82441" Y="17,65889" />
+                    <vert X="82,46316" Y="16,81447" />
+                    <vert X="83,56741" Y="16,68456" />
+                    <vert X="86,29556" Y="17,69136" />
+                    <vert X="87,04251" Y="18,50331" />
+                    <vert X="88,50401" Y="18,92551" />
+                    <vert X="89,5433" Y="19,06625" />
+                    <vert X="91,15636" Y="19,09873" />
+                    <vert X="93,05089" Y="18,55743" />
+                    <vert X="93,60033" Y="18,13251" />
+                    <vert X="94,54218" Y="17,39635" />
+                    <vert X="94,93188" Y="16,43285" />
+                    <vert X="95,59229" Y="14,97135" />
+                    <vert X="95,94952" Y="13,74803" />
+                    <vert X="96,45834" Y="12,99022" />
+                    <vert X="96,90221" Y="12,15662" />
+                    <vert X="97,92614" Y="11,63157" />
+                    <vert X="98,66232" Y="11,33927" />
+                    <vert X="100,6218" Y="10,21338" />
+                    <vert X="101,6611" Y="9,91025" />
+                    <vert X="104,3134" Y="9,791166" />
+                    <vert X="105,3527" Y="11,30679" />
+                    <vert X="107,3555" Y="12,91985" />
+                    <vert X="107,7985" Y="13,63887" />
+                    <vert X="108,1882" Y="14,29925" />
+                    <vert X="108,7295" Y="15,13284" />
+                    <vert X="108,7836" Y="15,91231" />
+                    <vert X="108,4372" Y="16,33452" />
+                    <vert X="108,0583" Y="16,34534" />
+                    <vert X="107,6252" Y="15,99891" />
+                    <vert X="106,6942" Y="14,85137" />
+                    <vert X="105,8498" Y="14,0719" />
+                    <vert X="105,0703" Y="13,04344" />
+                    <vert X="103,5223" Y="12,15573" />
+                    <vert X="101,8118" Y="12,39389" />
+                    <vert X="101,5086" Y="12,79445" />
+                    <vert X="99,50944" Y="12,78362" />
+                    <vert X="97,39838" Y="14,69981" />
+                    <vert X="97,20352" Y="21,54177" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="97,13161" Y="20,20033" />
+                    <vert X="97,54301" Y="20,59006" />
+                    <vert X="98,71222" Y="20,5251" />
+                    <vert X="103,5189" Y="20,50345" />
+                    <vert X="105,6516" Y="20,11372" />
+                    <vert X="107,1889" Y="20,1462" />
+                    <vert X="108,0441" Y="19,75646" />
+                    <vert X="108,6179" Y="19,61573" />
+                    <vert X="109,3108" Y="19,6049" />
+                    <vert X="109,7447" Y="20,07583" />
+                    <vert X="110,037" Y="20,51969" />
+                    <vert X="110,1994" Y="21,05016" />
+                    <vert X="110,7298" Y="21,5265" />
+                    <vert X="96,8249" Y="21,67806" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="123,0809" Y="13,86157" />
+                    <vert X="121,7276" Y="17,2176" />
+                    <vert X="121,5544" Y="18,20275" />
+                    <vert X="121,5869" Y="19,06882" />
+                    <vert X="122,5287" Y="20,29215" />
+                    <vert X="123,8603" Y="20,63858" />
+                    <vert X="125,0196" Y="20,64941" />
+                    <vert X="125,9723" Y="20,5195" />
+                    <vert X="131,3852" Y="20,47619" />
+                    <vert X="132,8034" Y="20,57362" />
+                    <vert X="133,6479" Y="20,59528" />
+                    <vert X="134,2758" Y="20,34628" />
+                    <vert X="135,066" Y="19,88077" />
+                    <vert X="136,3435" Y="19,45856" />
+                    <vert X="137,3395" Y="19,30699" />
+                    <vert X="138,5953" Y="19,30699" />
+                    <vert X="139,7933" Y="19,67507" />
+                    <vert X="141,5471" Y="20,11894" />
+                    <vert X="142,4782" Y="20,22719" />
+                    <vert X="144,4702" Y="20,22719" />
+                    <vert X="144,9681" Y="20,06481" />
+                    <vert X="146,1265" Y="19,79416" />
+                    <vert X="147,1333" Y="19,32865" />
+                    <vert X="151,8112" Y="18,63436" />
+                    <vert X="151,7766" Y="21,50374" />
+                    <vert X="113,8456" Y="21,47657" />
+                    <vert X="114,6467" Y="19,53874" />
+                    <vert X="115,004" Y="19,24644" />
+                    <vert X="117,1367" Y="19,30057" />
+                    <vert X="118,544" Y="18,65101" />
+                    <vert X="119,3127" Y="17,9365" />
+                    <vert X="120,8932" Y="15,4682" />
+                    <vert X="120,9474" Y="15,15425" />
+                    <vert X="121,2722" Y="14,97021" />
+                    <vert X="122,3502" Y="13,76763" />
+                    <vert X="122,7616" Y="13,56194" />
+                    <vert X="123,0431" Y="13,61607" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="146,7858" Y="19,55559" />
+                    <vert X="147,8544" Y="18,86582" />
+                    <vert X="148,1622" Y="18,3941" />
+                    <vert X="148,2209" Y="17,49555" />
+                    <vert X="148,0415" Y="16,35574" />
+                    <vert X="147,4198" Y="14,71329" />
+                    <vert X="147,4306" Y="13,85805" />
+                    <vert X="148,0513" Y="11,50883" />
+                    <vert X="148,1596" Y="10,64276" />
+                    <vert X="148,1704" Y="9,506039" />
+                    <vert X="147,9431" Y="8,68327" />
+                    <vert X="147,4667" Y="7,730591" />
+                    <vert X="146,6873" Y="6,754704" />
+                    <vert X="145,7748" Y="6,120628" />
+                    <vert X="144,4887" Y="5,143202" />
+                    <vert X="143,3412" Y="4,006484" />
+                    <vert X="142,9514" Y="3,605925" />
+                    <vert X="141,7869" Y="2,523336" />
+                    <vert X="140,9023" Y="2,240324" />
+                    <vert X="139,5413" Y="2,176907" />
+                    <vert X="138,437" Y="2,534162" />
+                    <vert X="136,0986" Y="3,291974" />
+                    <vert X="135,1884" Y="3,432711" />
+                    <vert X="134,4197" Y="3,432711" />
+                    <vert X="133,7377" Y="3,259497" />
+                    <vert X="132,8067" Y="2,891416" />
+                    <vert X="131,356" Y="2,306818" />
+                    <vert X="129,9626" Y="2,152159" />
+                    <vert X="128,3464" Y="2,209385" />
+                    <vert X="127,3612" Y="2,339296" />
+                    <vert X="125,5147" Y="2,306818" />
+                    <vert X="124,5573" Y="2,0903" />
+                    <vert X="124,6872" Y="1,343313" />
+                    <vert X="125,0553" Y="0,9211033" />
+                    <vert X="125,7374" Y="0,8236703" />
+                    <vert X="126,3436" Y="1,105144" />
+                    <vert X="127,1772" Y="1,105144" />
+                    <vert X="128,3696" Y="0,686029" />
+                    <vert X="130,3322" Y="0,6087097" />
+                    <vert X="133,5289" Y="0,4695297" />
+                    <vert X="135,8596" Y="0,2932014" />
+                    <vert X="137,0891" Y="-0,1088953" />
+                    <vert X="151,8178" Y="-0,1518199" />
+                    <vert X="151,8178" Y="20,31087" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="-0,2009179" Y="18,51069" />
+                    <vert X="1,868115" Y="18,05524" />
+                    <vert X="3,208431" Y="17,79498" />
+                    <vert X="4,574774" Y="17,28748" />
+                    <vert X="5,25144" Y="16,92313" />
+                    <vert X="6,292461" Y="16,76697" />
+                    <vert X="6,878036" Y="16,22044" />
+                    <vert X="8,803927" Y="15,49172" />
+                    <vert X="11,80987" Y="14,63287" />
+                    <vert X="15,06308" Y="14,59384" />
+                    <vert X="16,75474" Y="15,14038" />
+                    <vert X="19,94504" Y="16,48069" />
+                    <vert X="20,27036" Y="17,10531" />
+                    <vert X="20,19228" Y="17,49569" />
+                    <vert X="19,5937" Y="17,75595" />
+                    <vert X="18,37049" Y="17,76896" />
+                    <vert X="17,30343" Y="17,36556" />
+                    <vert X="15,53371" Y="17,05326" />
+                    <vert X="12,99621" Y="17,01422" />
+                    <vert X="11,60384" Y="17,26146" />
+                    <vert X="9,339622" Y="18,28948" />
+                    <vert X="7,062385" Y="19,60376" />
+                    <vert X="7,205524" Y="19,91606" />
+                    <vert X="7,673986" Y="20,13729" />
+                    <vert X="8,662957" Y="20,42356" />
+                    <vert X="10,31558" Y="20,43657" />
+                    <vert X="12,29353" Y="19,72087" />
+                    <vert X="13,15237" Y="19,56472" />
+                    <vert X="15,84602" Y="19,56473" />
+                    <vert X="17,23838" Y="19,82498" />
+                    <vert X="18,30543" Y="20,04619" />
+                    <vert X="19,30741" Y="20,38453" />
+                    <vert X="20,08818" Y="21,46459" />
+                    <vert X="-0,08705681" Y="21,42555" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="19,02764" Y="20,29235" />
+                    <vert X="20,23783" Y="20,56562" />
+                    <vert X="21,77333" Y="20,65671" />
+                    <vert X="22,9575" Y="20,53959" />
+                    <vert X="23,36091" Y="20,31838" />
+                    <vert X="23,98551" Y="20,17524" />
+                    <vert X="24,55807" Y="19,81088" />
+                    <vert X="24,71422" Y="19,39447" />
+                    <vert X="24,34986" Y="19,03011" />
+                    <vert X="23,63416" Y="18,66576" />
+                    <vert X="22,86641" Y="18,54864" />
+                    <vert X="22,58013" Y="18,32742" />
+                    <vert X="22,5541" Y="17,95005" />
+                    <vert X="22,78833" Y="17,70281" />
+                    <vert X="23,90743" Y="17,92403" />
+                    <vert X="26,40588" Y="18,21031" />
+                    <vert X="29,19062" Y="18,44454" />
+                    <vert X="32,1033" Y="18,44454" />
+                    <vert X="33,83397" Y="18,40549" />
+                    <vert X="36,5537" Y="17,65076" />
+                    <vert X="37,19129" Y="17,09121" />
+                    <vert X="38,5186" Y="16,21935" />
+                    <vert X="39,33839" Y="15,22929" />
+                    <vert X="41,66766" Y="9,412583" />
+                    <vert X="41,84983" Y="9,230402" />
+                    <vert X="42,66965" Y="9,17835" />
+                    <vert X="43,43739" Y="9,490657" />
+                    <vert X="44,49145" Y="10,03719" />
+                    <vert X="45,48041" Y="10,63578" />
+                    <vert X="46,1831" Y="11,35149" />
+                    <vert X="46,50842" Y="12,0802" />
+                    <vert X="46,18311" Y="13,16026" />
+                    <vert X="45,70162" Y="13,58968" />
+                    <vert X="44,9599" Y="13,99308" />
+                    <vert X="42,70869" Y="14,77385" />
+                    <vert X="41,42042" Y="14,74782" />
+                    <vert X="38,10217" Y="18,43044" />
+                    <vert X="38,15421" Y="18,69069" />
+                    <vert X="38,64653" Y="19,1559" />
+                    <vert X="39,3362" Y="19,65038" />
+                    <vert X="40,40325" Y="19,96269" />
+                    <vert X="41,8867" Y="20,22295" />
+                    <vert X="42,68047" Y="20,3661" />
+                    <vert X="44,95773" Y="20,32705" />
+                    <vert X="46,44119" Y="19,94968" />
+                    <vert X="47,3911" Y="19,5593" />
+                    <vert X="47,76848" Y="19,1559" />
+                    <vert X="48,17188" Y="19,14289" />
+                    <vert X="48,99168" Y="18,66142" />
+                    <vert X="49,81149" Y="18,41417" />
+                    <vert X="51,69834" Y="18,46622" />
+                    <vert X="52,66453" Y="18,71347" />
+                    <vert X="53,4453" Y="19,37712" />
+                    <vert X="53,87472" Y="20,14487" />
+                    <vert X="54,20004" Y="21,51121" />
+                    <vert X="18,61122" Y="21,44615" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="41,65254" Y="16,97265" />
+                    <vert X="44,5647" Y="16,76696" />
+                    <vert X="45,50656" Y="16,49632" />
+                    <vert X="46,50254" Y="15,95502" />
+                    <vert X="48,22386" Y="14,37444" />
+                    <vert X="48,74351" Y="14,11462" />
+                    <vert X="48,91671" Y="13,3568" />
+                    <vert X="49,956" Y="11,63549" />
+                    <vert X="50,06426" Y="11,10502" />
+                    <vert X="50,10034" Y="9,002991" />
+                    <vert X="50,71741" Y="7,758011" />
+                    <vert X="51,73509" Y="7,032679" />
+                    <vert X="53,07746" Y="6,469729" />
+                    <vert X="53,94355" Y="5,722744" />
+                    <vert X="54,08427" Y="5,127318" />
+                    <vert X="54,65805" Y="4,586025" />
+                    <vert X="55,98963" Y="4,293726" />
+                    <vert X="56,84488" Y="4,2829" />
+                    <vert X="57,9383" Y="4,629327" />
+                    <vert X="58,55358" Y="5,192275" />
+                    <vert X="58,64017" Y="6,556337" />
+                    <vert X="58,33705" Y="7,130111" />
+                    <vert X="57,44932" Y="7,887922" />
+                    <vert X="56,6482" Y="8,256004" />
+                    <vert X="55,01349" Y="8,959688" />
+                    <vert X="54,1366" Y="9,706676" />
+                    <vert X="53,40041" Y="10,6377" />
+                    <vert X="52,88077" Y="11,86103" />
+                    <vert X="52,94575" Y="12,68379" />
+                    <vert X="53,37879" Y="13,22509" />
+                    <vert X="53,54118" Y="13,67978" />
+                    <vert X="54,46138" Y="14,53592" />
+                    <vert X="55,00267" Y="14,77409" />
+                    <vert X="56,74565" Y="14,77409" />
+                    <vert X="57,69831" Y="14,29776" />
+                    <vert X="59,35468" Y="13,49664" />
+                    <vert X="60,47877" Y="12,98782" />
+                    <vert X="61,17163" Y="13,0203" />
+                    <vert X="62,17846" Y="13,43169" />
+                    <vert X="62,7522" Y="14,03794" />
+                    <vert X="63,39093" Y="14,20032" />
+                    <vert X="64,83082" Y="14,93648" />
+                    <vert X="64,91742" Y="15,16383" />
+                    <vert X="64,77671" Y="15,58604" />
+                    <vert X="64,02966" Y="16,22476" />
+                    <vert X="63,39094" Y="16,22476" />
+                    <vert X="62,39496" Y="16,50624" />
+                    <vert X="60,53291" Y="17,01506" />
+                    <vert X="59,08223" Y="17,15579" />
+                    <vert X="57,89139" Y="17,46974" />
+                    <vert X="54,93591" Y="17,46974" />
+                    <vert X="53,83167" Y="17,01505" />
+                    <vert X="52,3377" Y="16,50624" />
+                    <vert X="51,17933" Y="16,54954" />
+                    <vert X="50,06448" Y="16,70115" />
+                    <vert X="49,78009" Y="17,07369" />
+                    <vert X="48,15615" Y="17,69078" />
+                    <vert X="46,20753" Y="18,16711" />
+                    <vert X="45,25485" Y="18,28619" />
+                    <vert X="43,19613" Y="18,26996" />
+                    <vert X="42,11354" Y="18,09674" />
+                    <vert X="41,45316" Y="17,73949" />
+                    <vert X="41,36655" Y="17,38223" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="46,46926" Y="-0,3617652" />
+                    <vert X="66,86088" Y="-0,3617646" />
+                    <vert X="67,46698" Y="0,1687036" />
+                    <vert X="69,06921" Y="0,9048646" />
+                    <vert X="70,40079" Y="1,662677" />
+                    <vert X="71,27769" Y="2,312231" />
+                    <vert X="72,52267" Y="3,546383" />
+                    <vert X="72,10046" Y="4,347499" />
+                    <vert X="71,06117" Y="4,315022" />
+                    <vert X="69,5239" Y="3,568035" />
+                    <vert X="68,20314" Y="3,308214" />
+                    <vert X="67,07725" Y="3,254084" />
+                    <vert X="65,71318" Y="2,983437" />
+                    <vert X="64,61977" Y="2,528749" />
+                    <vert X="63,63461" Y="2,42049" />
+                    <vert X="61,6643" Y="2,05241" />
+                    <vert X="60,02327" Y="2,074061" />
+                    <vert X="56,77551" Y="2,203972" />
+                    <vert X="54,23142" Y="2,918481" />
+                    <vert X="52,79158" Y="2,929307" />
+                    <vert X="52,30441" Y="2,756093" />
+                    <vert X="51,19386" Y="1,097024" />
+                    <vert X="47,25322" Y="0,5124254" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+            <Polygon>
+                <Vertices>
+                    <vert X="67,53969" Y="5,504823" />
+                    <vert X="68,9579" Y="5,526475" />
+                    <vert X="69,52084" Y="5,688864" />
+                    <vert X="69,92139" Y="6,154377" />
+                    <vert X="69,83479" Y="6,706498" />
+                    <vert X="69,0878" Y="7,139533" />
+                    <vert X="68,33005" Y="7,453487" />
+                    <vert X="66,72777" Y="8,287078" />
+                    <vert X="65,29888" Y="8,449463" />
+                    <vert X="62,63559" Y="8,914981" />
+                    <vert X="61,35812" Y="8,8392" />
+                    <vert X="60,37296" Y="8,427816" />
+                    <vert X="60,32966" Y="7,983953" />
+                    <vert X="60,87096" Y="7,182837" />
+                    <vert X="61,29316" Y="6,630716" />
+                    <vert X="61,53133" Y="5,753818" />
+                    <vert X="61,4772" Y="5,331609" />
+                    <vert X="61,7695" Y="4,80114" />
+                    <vert X="62,12676" Y="4,649577" />
+                    <vert X="63,12274" Y="4,638752" />
+                    <vert X="63,80477" Y="4,725358" />
+                    <vert X="64,89819" Y="4,811966" />
+                    <vert X="65,55857" Y="4,887746" />
+                </Vertices>
+                <CollisionType>Solid</CollisionType>
+            </Polygon>
+        </Polygons>
+        <Edges />
+        <EdgeChains />
+    </BaseCollisions>
+    <Scenarios>
+        <Scenario>
+            <StartTime>0</StartTime>
+            <EndTime>50</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="95,37068" Y="14,79901" />
+                            <Rotation>-1,25</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Polygon">
+                                    <Polygon>
+                                        <Vertices>
+                                            <vert X="93,76846" Y="17,48384" />
+                                            <vert X="91,97134" Y="17,35393" />
+                                            <vert X="95,02425" Y="12,17915" />
+                                            <vert X="95,71712" Y="11,72446" />
+                                        </Vertices>
+                                    </Polygon>
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                    </Traps>
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="26,19867" Y="8,704021" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>5</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="23,64375" Y="8,81228" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>5</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumbli">
+                    <Age>0</Age>
+                    <Position X="31,52501" Y="16,86674" />
+                    <Direction inverted="false" />
+                    <IAAux type="DualWaypoints">
+                        <WP1 X="22,33785" Y="16,20504" />
+                        <WP2 X="38,11396" Y="15,59879" />
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumbli">
+                    <Age>0</Age>
+                    <Position X="25,98215" Y="16,52032" />
+                    <Direction inverted="false" />
+                    <IAAux type="DualWaypoints">
+                        <WP1 X="22,68429" Y="16,76799" />
+                        <WP2 X="38,33046" Y="15,25236" />
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumbli">
+                    <Age>0</Age>
+                    <Position X="5,799034" Y="14,15488" />
+                    <Direction inverted="false" />
+                    <IAAux type="DualWaypoints">
+                        <WP1 X="-0,1403531" Y="17,10902" />
+                        <WP2 X="21,04869" Y="14,68402" />
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="26,9817" Y="-0,1208691" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>5</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="58,2126" Y="19,92328" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="118,5976" Y="16,1288" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="113,0748" Y="15,82487" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+                <Enemy id="Pic">
+                    <Age>0</Age>
+                    <Position X="94,71752" Y="6,583969" />
+                    <Direction inverted="false" />
+                    <IAAux type="Path">
+                        <Vertices>
+                            <vert X="103,3782" Y="7,363434" />
+                            <vert X="81,46663" Y="7,904728" />
+                            <vert X="81,50993" Y="5,804504" />
+                            <vert X="83,99989" Y="3,552718" />
+                            <vert X="89,17466" Y="3,44446" />
+                            <vert X="90,66864" Y="0,976155" />
+                            <vert X="99,78404" Y="1,257629" />
+                            <vert X="102,9452" Y="3,877495" />
+                        </Vertices>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Pic">
+                    <Age>0</Age>
+                    <Position X="85,64542" Y="9,182181" />
+                    <Direction inverted="true" />
+                    <IAAux type="Path">
+                        <Vertices>
+                            <vert X="81,55324" Y="9,398702" />
+                            <vert X="95,32378" Y="9,550264" />
+                            <vert X="93,9164" Y="14,48687" />
+                            <vert X="82,20279" Y="14,35696" />
+                        </Vertices>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Pic">
+                    <Age>0</Age>
+                    <Position X="92,01105" Y="11,54223" />
+                    <Direction inverted="false" />
+                    <IAAux type="Path">
+                        <Vertices>
+                            <vert X="91,9461" Y="11,95361" />
+                            <vert X="82,11618" Y="12,19178" />
+                            <vert X="82,93895" Y="15,15808" />
+                            <vert X="91,64297" Y="15,09312" />
+                        </Vertices>
+                    </IAAux>
+                </Enemy>
+            </Enemies>
+            <Sectors />
+        </Scenario>
+        <Scenario>
+            <StartTime>200</StartTime>
+            <EndTime>250</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="49,93224" Y="10,98693" />
+                            <Rotation>-1,55</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Rectangle">
+                                    <Rectangle X="50,3868" Y="10,60812" width="8,066351" height="3,421801" angle="0" />
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                        <Trap id="SpikesBar">
+                            <Age>0</Age>
+                            <Position X="47,48264" Y="15,10326" />
+                            <Rotation>-0,8000001</Rotation>
+                            <Direction inverted="false" />
+                            <IAAux type="ActivationZone">
+                                <Object type="Rectangle">
+                                    <Rectangle X="47,2301" Y="14,95174" width="8,066351" height="3,421801" angle="0" />
+                                </Object>
+                            </IAAux>
+                        </Trap>
+                    </Traps>
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="117,1867" Y="3,016836" />
+                    <Direction inverted="true" />
+                    <IAAux type="Radius">
+                        <Radius>5</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Schrumble">
+                    <Age>0</Age>
+                    <Position X="95,96117" Y="1,203269" />
+                    <Direction inverted="false" />
+                    <IAAux type="Radius">
+                        <Radius>5</Radius>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Pic">
+                    <Age>0</Age>
+                    <Position X="83,7532" Y="14,89071" />
+                    <Direction inverted="false" />
+                    <IAAux type="Path">
+                        <Vertices>
+                            <vert X="80,6205" Y="11,69877" />
+                            <vert X="86,88589" Y="18,08265" />
+                        </Vertices>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="73,46223" Y="20,05297" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="67,40138" Y="20,20449" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+                <Enemy id="Bulle">
+                    <Age>0</Age>
+                    <Position X="66,61852" Y="14,74971" />
+                    <Direction inverted="false" />
+                    <IAAux />
+                </Enemy>
+            </Enemies>
+            <Sectors />
+        </Scenario>
+        <Scenario>
+            <StartTime>950</StartTime>
+            <EndTime>1000</EndTime>
+            <Zones>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+                <Zone>
+                    <Traps />
+                    <Decorations />
+                    <Items />
+                </Zone>
+            </Zones>
+            <Enemies>
+                <Enemy id="BulleSpawner">
+                    <Age>0</Age>
+                    <Position X="27,56104" Y="17,254" />
+                    <Direction inverted="false" />
+                    <IAAux type="ActivationZone">
+                        <Object type="Rectangle">
+                            <Rectangle X="27,78813" Y="5,195378" width="7,478922" height="0,8023946" angle="0" />
+                        </Object>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="BulleSpawner">
+                    <Age>0</Age>
+                    <Position X="24,3666" Y="16,93608" />
+                    <Direction inverted="false" />
+                    <IAAux type="ActivationZone">
+                        <Object type="Rectangle">
+                            <Rectangle X="24,34389" Y="5,214303" width="8,614386" height="0,8175337" angle="0" />
+                        </Object>
+                    </IAAux>
+                </Enemy>
+                <Enemy id="BulleSpawner">
+                    <Age>0</Age>
+                    <Position X="40,41624" Y="19,81204" />
+                    <Direction inverted="false" />
+                    <IAAux type="ActivationZone">
+                        <Object type="Rectangle">
+                            <Rectangle X="46,94027" Y="4,441833" width="14,81811" height="1,314919" angle="0" />
+                        </Object>
+                    </IAAux>
+                </Enemy>
+            </Enemies>
+            <Sectors />
+        </Scenario>
+    </Scenarios>
+    <TravelEntities>
+        <TravelEnemies>
+            <Enemy id="Bulle">
+                <SpawnDate>482</SpawnDate>
+                <Position X="32,64687" Y="8,226989" />
+                <Direction inverted="false" />
+                <IAAux />
+            </Enemy>
+            <Enemy id="Schrumbli">
+                <SpawnDate>311</SpawnDate>
+                <Position X="34,33613" Y="17,12296" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="31,62286" Y="13,9713" />
+                    <WP2 X="37,0494" Y="13,9713" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumbli">
+                <SpawnDate>311</SpawnDate>
+                <Position X="27,8406" Y="16,47341" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="25,12733" Y="13,32175" />
+                    <WP2 X="30,55387" Y="13,32175" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumbli">
+                <SpawnDate>311</SpawnDate>
+                <Position X="17,0147" Y="12,57608" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="14,30143" Y="9,424423" />
+                    <WP2 X="19,72797" Y="9,424423" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumbli">
+                <SpawnDate>366</SpawnDate>
+                <Position X="87,38302" Y="17,23122" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="84,66975" Y="14,07956" />
+                    <WP2 X="90,09629" Y="14,07956" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumbli">
+                <SpawnDate>366</SpawnDate>
+                <Position X="101,6732" Y="7,379653" />
+                <Direction inverted="false" />
+                <IAAux type="DualWaypoints">
+                    <WP1 X="98,95993" Y="4,227995" />
+                    <WP2 X="104,3865" Y="4,227995" />
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>577</SpawnDate>
+                <Position X="137,6152" Y="16,90644" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>577</SpawnDate>
+                <Position X="144,1107" Y="17,88077" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>577</SpawnDate>
+                <Position X="73,95891" Y="12,14305" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>680</SpawnDate>
+                <Position X="99,94106" Y="8,029206" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="Schrumble">
+                <SpawnDate>705</SpawnDate>
+                <Position X="117,479" Y="16,90644" />
+                <Direction inverted="false" />
+                <IAAux type="Radius">
+                    <Radius>5</Radius>
+                </IAAux>
+            </Enemy>
+            <Enemy id="BulleSpawner">
+                <SpawnDate>729</SpawnDate>
+                <Position X="75,0415" Y="21,2368" />
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="75,0415" Y="21,2368" width="5,388625" height="5,199052" angle="0" />
+                    </Object>
+                </IAAux>
+            </Enemy>
+            <Enemy id="BulleSpawner">
+                <SpawnDate>729</SpawnDate>
+                <Position X="65,29819" Y="21,02028" />
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="65,29819" Y="21,02028" width="5,388625" height="5,199052" angle="0" />
+                    </Object>
+                </IAAux>
+            </Enemy>
+            <Enemy id="BulleSpawner">
+                <SpawnDate>748</SpawnDate>
+                <Position X="55,98792" Y="13,65867" />
+                <Direction inverted="false" />
+                <IAAux type="ActivationZone">
+                    <Object type="Rectangle">
+                        <Rectangle X="55,98792" Y="13,65867" width="5,388625" height="5,199052" angle="0" />
+                    </Object>
+                </IAAux>
+            </Enemy>
+        </TravelEnemies>
+        <TravelTraps />
+        <TravelDecos />
+    </TravelEntities>
+    <TCCs>
+        <TCC name="Cascade">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>12</StartTime>
+                        <EndTime>120</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Entree grotte SF1">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="108,5423" Y="14,86422" />
+                                <vert X="109,1749" Y="15,77511" />
+                                <vert X="110,4147" Y="17,25532" />
+                                <vert X="112,7046" Y="18,43189" />
+                                <vert X="112,7931" Y="18,91264" />
+                                <vert X="112,7046" Y="19,4693" />
+                                <vert X="112,3883" Y="19,88679" />
+                                <vert X="112,0594" Y="20,13982" />
+                                <vert X="111,6798" Y="19,97535" />
+                                <vert X="111,1611" Y="19,43134" />
+                                <vert X="110,7689" Y="19,06446" />
+                                <vert X="110,2629" Y="18,84939" />
+                                <vert X="109,3393" Y="18,24212" />
+                                <vert X="108,517" Y="17,44509" />
+                                <vert X="107,8465" Y="16,142" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>1</StartTime>
+                        <EndTime>2</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>950</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Entree Montagne HautDroite">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="77,34701" Y="0,6049781" />
+                                <vert X="77,5225" Y="0,9910592" />
+                                <vert X="77,6278" Y="1,693025" />
+                                <vert X="77,93198" Y="2,476887" />
+                                <vert X="78,63394" Y="3,752122" />
+                                <vert X="79,24232" Y="5,904819" />
+                                <vert X="79,4997" Y="8,022415" />
+                                <vert X="76,64505" Y="6,150507" />
+                                <vert X="76,24726" Y="4,185004" />
+                                <vert X="75,5687" Y="2,1961" />
+                                <vert X="75,557" Y="1,260146" />
+                                <vert X="74,97203" Y="-0,190583" />
+                                <vert X="77,24169" Y="-0,2373804" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>1</StartTime>
+                        <EndTime>2</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>950</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Coin Montagne HautGauche">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="49,99578" Y="0,8922343" />
+                                <vert X="49,03228" Y="0,7731494" />
+                                <vert X="47,09445" Y="0,8056272" />
+                                <vert X="46,45572" Y="1,043797" />
+                                <vert X="45,89278" Y="1,530962" />
+                                <vert X="45,80616" Y="2,137213" />
+                                <vert X="46,03351" Y="2,678507" />
+                                <vert X="46,92124" Y="3,38219" />
+                                <vert X="48,24199" Y="3,955963" />
+                                <vert X="49,17303" Y="5,146811" />
+                                <vert X="49,03228" Y="6,056186" />
+                                <vert X="48,54512" Y="6,803174" />
+                                <vert X="47,43005" Y="7,290339" />
+                                <vert X="46,58563" Y="7,431074" />
+                                <vert X="45,51387" Y="7,387772" />
+                                <vert X="43,96577" Y="7,095472" />
+                                <vert X="43,02391" Y="6,803173" />
+                                <vert X="42,645" Y="6,272704" />
+                                <vert X="42,66666" Y="5,320026" />
+                                <vert X="42,88317" Y="4,681298" />
+                                <vert X="43,98742" Y="3,100717" />
+                                <vert X="44,22559" Y="2,191342" />
+                                <vert X="45,25405" Y="-0,1903552" />
+                                <vert X="50,91599" Y="-0,2011812" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>1</StartTime>
+                        <EndTime>2</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="44,71275" Y="1,000493" />
+                                <vert X="45,43809" Y="1,054623" />
+                                <vert X="45,69791" Y="1,422703" />
+                                <vert X="45,86029" Y="1,974824" />
+                                <vert X="45,91442" Y="2,440337" />
+                                <vert X="46,27168" Y="2,916677" />
+                                <vert X="47,05114" Y="3,43632" />
+                                <vert X="48,12291" Y="3,901834" />
+                                <vert X="48,51264" Y="4,291565" />
+                                <vert X="49,09724" Y="5,060204" />
+                                <vert X="48,98898" Y="6,002058" />
+                                <vert X="48,77246" Y="6,554178" />
+                                <vert X="48,22035" Y="6,94391" />
+                                <vert X="47,4084" Y="7,301163" />
+                                <vert X="46,58563" Y="7,420249" />
+                                <vert X="45,15661" Y="7,31199" />
+                                <vert X="44,12816" Y="7,1496" />
+                                <vert X="43,16465" Y="6,868129" />
+                                <vert X="42,645" Y="6,380963" />
+                                <vert X="42,65583" Y="5,287548" />
+                                <vert X="42,83987" Y="4,692122" />
+                                <vert X="43,95494" Y="3,165673" />
+                                <vert X="44,20393" Y="2,180516" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>950</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Rocher bloquant la sortie">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>2</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="21,06214" Y="15,7632" />
+                                <vert X="21,69004" Y="15,69824" />
+                                <vert X="22,20969" Y="16,62928" />
+                                <vert X="22,66437" Y="17,66855" />
+                                <vert X="22,66437" Y="18,51297" />
+                                <vert X="22,0473" Y="19,05427" />
+                                <vert X="21,58178" Y="19,49813" />
+                                <vert X="21,47352" Y="20,66733" />
+                                <vert X="20,57497" Y="20,66733" />
+                                <vert X="20,17441" Y="20,33172" />
+                                <vert X="20,0012" Y="19,9853" />
+                                <vert X="19,99037" Y="18,01498" />
+                                <vert X="19,76303" Y="17,19221" />
+                                <vert X="20,78066" Y="15,89311" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>950</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Falaise du totem">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="122,8755" Y="14,36408" />
+                                <vert X="123,6599" Y="12,2007" />
+                                <vert X="124,6594" Y="10,42952" />
+                                <vert X="125,7221" Y="9,164389" />
+                                <vert X="126,6962" Y="7,810697" />
+                                <vert X="127,4426" Y="7,190784" />
+                                <vert X="129,9096" Y="6,520265" />
+                                <vert X="130,5042" Y="6,090121" />
+                                <vert X="130,5169" Y="4,951503" />
+                                <vert X="130,0867" Y="4,34424" />
+                                <vert X="129,4542" Y="4,027957" />
+                                <vert X="128,4168" Y="3,787582" />
+                                <vert X="125,8612" Y="3,812885" />
+                                <vert X="124,6088" Y="4,103865" />
+                                <vert X="124,0521" Y="4,584614" />
+                                <vert X="123,6093" Y="6,735338" />
+                                <vert X="123,2171" Y="7,975165" />
+                                <vert X="122,7237" Y="11,36572" />
+                                <vert X="122,3442" Y="12,80797" />
+                                <vert X="121,5471" Y="13,98454" />
+                                <vert X="120,8766" Y="15,43944" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="Chute d'eau cascade montagne">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="76,93304" Y="13,31982" />
+                                <vert X="71,57418" Y="13,31982" />
+                                <vert X="73,23055" Y="14,38076" />
+                                <vert X="74,86526" Y="14,39158" />
+                            </Vertices>
+                            <CollisionType>Water</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC0 plateforme1">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Rectangle">
+                        <Rectangle X="6,555204" Y="3,157554" width="6,343975" height="0,216518" angle="0,02">
+                            <CollisionType>Semi</CollisionType>
+                        </Rectangle>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC0 plateforme 2">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="EdgeChain">
+                        <EdgeChain>
+                            <Vertices>
+                                <vert X="12,63021" Y="4,35201" />
+                                <vert X="13,35554" Y="4,438617" />
+                                <vert X="14,80621" Y="4,135492" />
+                                <vert X="15,12017" Y="4,698438" />
+                                <vert X="15,68311" Y="4,665961" />
+                                <vert X="15,97541" Y="3,875671" />
+                                <vert X="16,89561" Y="3,626675" />
+                                <vert X="17,06883" Y="4,200446" />
+                                <vert X="17,38278" Y="4,157144" />
+                                <vert X="17,42608" Y="3,420983" />
+                                <vert X="21,22597" Y="1,927009" />
+                                <vert X="21,46414" Y="1,699666" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </EdgeChain>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC0 plateforme 8">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Rectangle">
+                        <Rectangle X="8,191134" Y="10,01488" width="8,931364" height="0,2706475" angle="0">
+                            <CollisionType>Solid</CollisionType>
+                        </Rectangle>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC0 plateforme 6">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Rectangle">
+                        <Rectangle X="16,85502" Y="6,192412" width="3,810717" height="0,2489959" angle="0">
+                            <CollisionType>Semi</CollisionType>
+                        </Rectangle>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC0 plateforme 7">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Rectangle">
+                        <Rectangle X="22,01897" Y="7,020593" width="5,066516" height="0,2814733" angle="0">
+                            <CollisionType>Semi</CollisionType>
+                        </Rectangle>
+                    </CollisionObject>
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC1 rochers qui bloquent leau near SF0">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>1</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>200</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="109,2963" Y="19,68665" />
+                                <vert X="109,4479" Y="19,09123" />
+                                <vert X="109,8159" Y="18,7448" />
+                                <vert X="110,3464" Y="18,8314" />
+                                <vert X="110,7903" Y="19,3294" />
+                                <vert X="111,0826" Y="18,86388" />
+                                <vert X="111,4831" Y="18,91801" />
+                                <vert X="111,8295" Y="19,27527" />
+                                <vert X="112,2626" Y="18,71232" />
+                                <vert X="112,5224" Y="18,61489" />
+                                <vert X="113,0854" Y="17,78129" />
+                                <vert X="113,7566" Y="17,6189" />
+                                <vert X="114,601" Y="18,23598" />
+                                <vert X="115,2722" Y="18,42002" />
+                                <vert X="115,4237" Y="18,89636" />
+                                <vert X="114,601" Y="21,64614" />
+                                <vert X="110,0866" Y="21,63531" />
+                            </Vertices>
+                            <CollisionType>Solid</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+            </States>
+        </TCC>
+        <TCC name="SC2 Big Ocean">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Scenario</TimeType>
+                        <StartTime>0</StartTime>
+                        <EndTime>2</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>950</StartTime>
+                        <EndTime>1001</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="Polygon">
+                        <Polygon>
+                            <Vertices>
+                                <vert X="-0,1704106" Y="4,885161" />
+                                <vert X="24,58349" Y="5,642492" />
+                                <vert X="55,22836" Y="4,495677" />
+                                <vert X="52,86981" Y="10,90053" />
+                                <vert X="77,96633" Y="10,69858" />
+                                <vert X="77,79323" Y="17,18998" />
+                                <vert X="82,66178" Y="17,38473" />
+                                <vert X="82,16411" Y="21,53382" />
+                                <vert X="-0,1505746" Y="21,59873" />
+                            </Vertices>
+                            <CollisionType>Water</CollisionType>
+                        </Polygon>
+                    </CollisionObject>
+                </State>
+            </States>
+        </TCC>
+    </TCCs>
+</Level>

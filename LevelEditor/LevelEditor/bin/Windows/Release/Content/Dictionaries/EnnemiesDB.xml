@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ennemies>
+  
+  <Group name="Champignons" img="Content/Icons/collisions.png">
+    <Ennemy id="Schrumbli" img="Content/Ennemies/SchrumbliThumbnail.png"/>
+    <Ennemy id="Schrumble" img="Content/Ennemies/SchrumbleThumbnail.png"/>
+  </Group>
+  
+  <Group name="Aquatique" img="Content/Ennemies/BubbleThumbnail.png">
+    <Ennemy id="Bulle" img="Content/Ennemies/BubbleThumbnail.png"/>
+  </Group>"
+  
+</Ennemies>

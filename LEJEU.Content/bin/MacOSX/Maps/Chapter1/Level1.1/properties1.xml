@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level>
+    <!-- penser a la musique, meteo-->
+    <Weather id="heavyRain"/>
+    <Soundtrack path="sounds" />
+    
+    <NZones>7</NZones>
+    <playerSpawn x="600" y="200"/>
+    <Zones>
+    <Zone id="1">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="2">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="null" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="3">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="4">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    <Zone id="1">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="2">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="3">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    
+    <Zone id="4">
+      <platform path="Maps/Level1.1/Zone1/level1.1.1900" />
+      <foreground path="Maps/Level1.1/Zone1/Avant1.1.1" />
+    
+      <Collisions>
+        <physicals path="collisionsphysical.xml" />
+        <sectors path="Content/something.xml" />
+      </Collisions>
+      <Ennemies></Ennemies>
+      <Objects></Objects>
+      <SafeZones></SafeZones>
+      <Items></Items>
+    </Zone>
+    </Zones>
+    
+    <Backgrounds speed="0.5">
+    <img id ="1" path = "Maps/Level1.1/Fond900" />
+    <img id ="2" path = "Maps/Level1.1/Fond900" />
+    <img id ="3" path = "Maps/Level1.1/Fond900" />
+    <img id ="4" path = "Maps/Level1.1/Fond900" />
+    <img id ="5" path = "Maps/Level1.1/Fond900" />
+    <img id ="6" path = "Maps/Level1.1/Fond900" />
+    <img id ="7" path = "Maps/Level1.1/Fond900" />
+    <img id ="8" path = "Maps/Level1.1/Fond900" />
+    </Backgrounds>
+</Level>

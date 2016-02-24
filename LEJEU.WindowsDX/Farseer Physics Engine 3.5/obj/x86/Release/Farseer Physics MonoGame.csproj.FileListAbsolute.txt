@@ -1,0 +1,32 @@
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.pdb
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\MonoGame.Framework.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.MediaFoundation.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.XAudio2.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct3D11.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.DXGI.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct2D1.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.XInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.RawInput.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct3D9.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\MonoGame.Framework.xml
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\Farseer Physics MonoGame.csprojResolveAssemblyReference.cache
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.dll
+C:\Users\_Jack_-_Daxter_0\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.pdb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\FarseerPhysics MonoGame.pdb
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\MonoGame.Framework.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.MediaFoundation.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.XAudio2.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct3D11.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.DXGI.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct2D1.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.XInput.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.RawInput.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\SharpDX.Direct3D9.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\bin\WindowsGL\Release\MonoGame.Framework.xml
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\Farseer Physics MonoGame.csprojResolveAssemblyReference.cache
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.dll
+D:\Users\pierr\Google Drive\LEJEU\CODE\LEJEU\LEJEU.WindowsDX\Farseer Physics Engine 3.5\obj\x86\Release\FarseerPhysics MonoGame.pdb

@@ -1,0 +1,218 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin blackPause.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:blackPause.png
+
+#begin fade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:fade.png
+
+#begin Font1.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Font1.spritefont
+
+#begin null.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:null.png
+
+#begin Splash/image1.xnb
+/copy:Splash/image1.xnb
+
+#begin Load/Menu.cme
+/copy:Load/Menu.cme
+
+#begin Load/Splash.txt
+/copy:Load/Splash.txt
+
+#begin player.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:player.png
+
+#begin Maps/Chapter1/Level1.1/Fond900.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Maps/Chapter1/Level1.1/Fond900.png
+
+#begin Maps/Chapter1/Level1.1/properties1.xml
+/copy:Maps/Chapter1/Level1.1/properties1.xml
+
+#begin Maps/Chapter1/Level1.1/Zone1/Avant1.1.1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Maps/Chapter1/Level1.1/Zone1/Avant1.1.1.png
+
+#begin Maps/Chapter1/Level1.1/Zone1/level1.1.1900.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Maps/Chapter1/Level1.1/Zone1/level1.1.1900.png
+
+#begin Entities/LevelEditorDictionaries/DecoDB.xml
+/copy:Entities/LevelEditorDictionaries/DecoDB.xml
+
+#begin Entities/LevelEditorDictionaries/ItemsDB.xml
+/copy:Entities/LevelEditorDictionaries/ItemsDB.xml
+
+#begin Entities/LevelEditorDictionaries/TrapsDB.xml
+/copy:Entities/LevelEditorDictionaries/TrapsDB.xml
+
+#begin Entities/LevelEditorIcons/Collisions/dirt.png
+/copy:Entities/LevelEditorIcons/Collisions/dirt.png
+
+#begin Entities/LevelEditorIcons/Collisions/ladder.png
+/copy:Entities/LevelEditorIcons/Collisions/ladder.png
+
+#begin Entities/LevelEditorIcons/Collisions/movingPlatform.png
+/copy:Entities/LevelEditorIcons/Collisions/movingPlatform.png
+
+#begin Entities/LevelEditorIcons/Collisions/sand.png
+/copy:Entities/LevelEditorIcons/Collisions/sand.png
+
+#begin Entities/LevelEditorIcons/Collisions/semi.png
+/copy:Entities/LevelEditorIcons/Collisions/semi.png
+
+#begin Entities/LevelEditorIcons/Collisions/water.png
+/copy:Entities/LevelEditorIcons/Collisions/water.png
+
+#begin Entities/LevelEditorIcons/CheckPoint.png
+/copy:Entities/LevelEditorIcons/CheckPoint.png
+
+#begin Entities/LevelEditorIcons/circle.png
+/copy:Entities/LevelEditorIcons/circle.png
+
+#begin Entities/LevelEditorIcons/collisions.png
+/copy:Entities/LevelEditorIcons/collisions.png
+
+#begin Entities/LevelEditorIcons/edge.png
+/copy:Entities/LevelEditorIcons/edge.png
+
+#begin Entities/LevelEditorIcons/mouse.png
+/copy:Entities/LevelEditorIcons/mouse.png
+
+#begin Entities/LevelEditorIcons/pause.png
+/copy:Entities/LevelEditorIcons/pause.png
+
+#begin Entities/LevelEditorIcons/play.ico
+/copy:Entities/LevelEditorIcons/play.ico
+
+#begin Entities/LevelEditorIcons/poly.png
+/copy:Entities/LevelEditorIcons/poly.png
+
+#begin Entities/LevelEditorIcons/rect.png
+/copy:Entities/LevelEditorIcons/rect.png
+
+#begin Entities/LevelEditorIcons/sectors.png
+/copy:Entities/LevelEditorIcons/sectors.png
+
+#begin Entities/LevelEditorIcons/spawn.png
+/copy:Entities/LevelEditorIcons/spawn.png
+
+#begin Entities/LevelEditorIcons/timer.png
+/copy:Entities/LevelEditorIcons/timer.png
+
+#begin Entities/LevelEditorDictionaries/EnemiesDB.xml
+/copy:Entities/LevelEditorDictionaries/EnemiesDB.xml
+
+#begin Entities/Decos/Bottle.png
+/copy:Entities/Decos/Bottle.png
+
+#begin Entities/Items/CheckpointThumbnail.png
+/copy:Entities/Items/CheckpointThumbnail.png
+
+#begin Entities/LevelEditorIcons/layers.png
+/copy:Entities/LevelEditorIcons/layers.png
+
+#begin Entities/Traps/SpikesBar/SpikesBarThumbnail.png
+/copy:Entities/Traps/SpikesBar/SpikesBarThumbnail.png
+
+#begin Entities/Traps/Piquants.png
+/copy:Entities/Traps/Piquants.png
+
+#begin Entities/Enemies/Bulle/BulleThumbnail.png
+/copy:Entities/Enemies/Bulle/BulleThumbnail.png
+
+#begin Entities/Enemies/BulleSpawner/BulleSpawnerThumbnail.png
+/copy:Entities/Enemies/BulleSpawner/BulleSpawnerThumbnail.png
+
+#begin Entities/Enemies/Pic/PicThumbnail.png
+/copy:Entities/Enemies/Pic/PicThumbnail.png
+
+#begin Entities/Enemies/Schrumble/SchrumbleThumbnail.png
+/copy:Entities/Enemies/Schrumble/SchrumbleThumbnail.png
+
+#begin Entities/Enemies/Schrumbli/SchrumbliThumbnail.png
+/copy:Entities/Enemies/Schrumbli/SchrumbliThumbnail.png
+
+#begin Entities/Enemies/AerienGroupThumbnail.png
+/copy:Entities/Enemies/AerienGroupThumbnail.png
+
+#begin Entities/Enemies/AquatiqueGroupThumbnail.png
+/copy:Entities/Enemies/AquatiqueGroupThumbnail.png
+
+#begin Entities/Enemies/ChampignonsGroupThumbnail.png
+/copy:Entities/Enemies/ChampignonsGroupThumbnail.png
+
+#begin Entities/Decos/Door.png
+/copy:Entities/Decos/Door.png
+

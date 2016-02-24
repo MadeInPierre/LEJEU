@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Traps>
+
+  <Group name="Traps" img="Content/Icons/mouse.png">
+    <Trap id="Schrumbli" img="Content/Icons/poly.png"/>
+    <Trap id="Schrumble" img="Content/Ennemies/SchrumbleThumbnail.png"/>
+    <Trap id="SpikesBar" img="Content/Traps/SpikesBar.png"/>
+  </Group>
+
+  <Group name="OtherTraps" img="Content/Ennemies/BubbleThumbnail.png">
+    <Trap id="Bulle" img="Content/Ennemies/BubbleThumbnail.png"/>
+  </Group>
+
+</Traps>

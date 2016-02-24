@@ -1,0 +1,1 @@
+rsync -va --progress --exclude='Content.mgcb' --delete /Users/pierrelaclau/Google\ Drive/LEJEU/CODE/LEJEU/LEJEU.Content/bin/MacOSX/ /Users/pierrelaclau/Google\ Drive/LEJEU/CODE/LEJEU/LEJEU.Mac/LEJEU.Mac/bin/Debug/LEJEU.Mac.app/Contents/Resources/Content

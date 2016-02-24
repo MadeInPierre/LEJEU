@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+    <GeneralSettings>
+        <LevelBasePath>Maps/Chapter1/LevelTemplate/</LevelBasePath>
+        <MainSpawns />
+        <Sound />
+        <Weather>Sunny</Weather>
+        <NZones>1</NZones>
+        <NBacks>1</NBacks>
+        <BackSpeed>0</BackSpeed>
+        <NYears>1000</NYears>
+        <TTS>0</TTS>
+    </GeneralSettings>
+    <BaseCollisions>
+        <Circles />
+        <Rectangles />
+        <Polygons />
+        <Edges />
+        <EdgeChains />
+    </BaseCollisions>
+    <Scenarios>
+        <Scenario>
+            <StartTime>0</StartTime>
+            <EndTime>50</EndTime>
+            <Zones />
+            <Enemies />
+            <Sectors />
+        </Scenario>
+        <Scenario>
+            <StartTime>200</StartTime>
+            <EndTime>250</EndTime>
+            <Zones />
+            <Enemies />
+            <Sectors />
+        </Scenario>
+        <Scenario>
+            <StartTime>950</StartTime>
+            <EndTime>1000</EndTime>
+            <Zones />
+            <Enemies />
+            <Sectors />
+        </Scenario>
+    </Scenarios>
+    <TravelEntities>
+        <TravelEnemies />
+        <TravelTraps />
+        <TravelDecos />
+    </TravelEntities>
+    <TCCs>
+        <TCC name="Cascade">
+            <States>
+                <State>
+                    <Time>
+                        <TimeType>Precision</TimeType>
+                        <StartTime>12</StartTime>
+                        <EndTime>120</EndTime>
+                    </Time>
+                    <Image>
+                        <Path>None</Path>
+                        <Position X="0" Y="0" />
+                    </Image>
+                    <CollisionObject type="None" />
+                </State>
+            </States>
+        </TCC>
+    </TCCs>
+</Level>
