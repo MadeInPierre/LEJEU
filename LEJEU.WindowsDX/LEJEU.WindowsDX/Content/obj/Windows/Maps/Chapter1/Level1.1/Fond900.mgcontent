@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.Content/Maps/Chapter1/Level1.1/Fond900.png</SourceFile>
+  <SourceFile>C:/Users/pierr/Documents/Programming/LEJEU Project/LEJEU/LEJEU.Content/Maps/Chapter1/Level1.1/Fond900.png</SourceFile>
   <SourceTime>2014-12-03T19:50:16+01:00</SourceTime>
-  <DestFile>C:/Users/pierr/Google Drive/LEJEU/CODE/LEJEU/LEJEU.WindowsDX/LEJEU.WindowsDX/Content/bin/Windows/Maps/Chapter1/Level1.1/Fond900.xnb</DestFile>
-  <DestTime>2016-02-21T12:00:40.381263+01:00</DestTime>
+  <DestFile>C:/Users/pierr/Documents/Programming/LEJEU Project/LEJEU/LEJEU.WindowsDX/LEJEU.WindowsDX/Content/bin/Windows/Maps/Chapter1/Level1.1/Fond900.xnb</DestFile>
+  <DestTime>2016-02-29T16:50:07.7619125+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T19:14:44+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

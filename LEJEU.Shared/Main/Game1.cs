@@ -4,7 +4,6 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
-//using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
@@ -14,31 +13,36 @@ using FarseerPhysics.DebugView;
 
 namespace LEJEU.Shared
 {
-	public class Game1 : Microsoft.Xna.Framework.Game
-	{
-		public static GraphicsDeviceManager graphics;
-        public static GraphicsDevice graphicsDevice;
+	public class Game1 : Game
+    {
+		GraphicsDeviceManager graphics;
 		SpriteBatch sb;
 
-		InputManager input;
+		SpriteFont font;
+
+        ScreenManager screenManager;
+        ResolutionManager resolutionManager;
 
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
-            graphicsDevice = GraphicsDevice;
 			Content.RootDirectory = "Content";
 
-			/// Setting the window's properties
-			graphics.IsFullScreen = false;
-			IsMouseVisible = true;
-			Window.AllowUserResizing = true;
+            screenManager = new ScreenManager();
+            resolutionManager = new ResolutionManager(Window);
+
+            
+            graphics.IsFullScreen = false;
 			graphics.ApplyChanges();
 		}
 
 		protected override void Initialize()
 		{
-			input = new InputManager();
-			ScreenManager.Initialize();
+			Window.AllowUserResizing = true;
+			IsMouseVisible = true;
+
+            screenManager.Initialize();
+            resolutionManager.Initialize(graphics);
 
 			base.Initialize();
 		}
@@ -46,7 +50,9 @@ namespace LEJEU.Shared
 		protected override void LoadContent()
 		{
 			sb = new SpriteBatch(GraphicsDevice);
-            ScreenManager.LoadContent(Content, input);
+			font = Content.Load<SpriteFont>("Font1");
+
+            screenManager.LoadContent(Content);
 		}
 
 		protected override void UnloadContent()
@@ -56,9 +62,9 @@ namespace LEJEU.Shared
 
 		protected override void Update(GameTime gameTime)
 		{
-			if (input.KeyDown(Keys.LeftWindows) && input.KeyPressed(Keys.Q)) this.Exit();
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
 
-		    ScreenManager.Update(gameTime, input);
+            screenManager.Update(gameTime);
 
 			base.Update(gameTime);
 		}
@@ -67,11 +73,16 @@ namespace LEJEU.Shared
 		protected override void Draw(GameTime gameTime)
 		{
 			sb.Begin();
-			    GraphicsDevice.Clear(Color.CornflowerBlue);
-                ScreenManager.Draw(sb);
+            {
+                GraphicsDevice.Clear(Color.CornflowerBlue);
+
+                screenManager.Draw(sb);
+
+                sb.DrawString(font, ((int)(1 / (float)gameTime.ElapsedGameTime.TotalSeconds)).ToString(), new Vector2(GraphicsDevice.Viewport.Width - 40, 0), Color.Blue);
+            }
 			sb.End();
 
             base.Draw(gameTime);
-        }
+		}
 	}
 }

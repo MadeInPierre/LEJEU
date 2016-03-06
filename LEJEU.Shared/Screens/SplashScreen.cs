@@ -1,49 +1,50 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace LEJEU.Shared
 {
-	public class SplashScreen : GameScreen
-	{
-		List<Texture2D> images;
-		float timer;
-		int imageCount;
+    class SplashScreen : Screen
+    {
+        Texture2D SplashImage;
+        float ElapsedTime = 0;
 
-		public override void Initialize() { }
+        public override void Initialize()
+        {
+            ScreenStatus = "RUNNING";
+        }
 
-		public override void LoadContent(ContentManager Content, InputManager inputManager)
-		{
-			images = new List<Texture2D>();
-			images.Add(Content.Load<Texture2D>("Splash/image1"));
-		}
+        public override void LoadContent(ContentManager Content)
+        {
+            SplashImage = Content.Load<Texture2D>("Splash/image1");
+        }
 
-		public override void UnloadContent()
-		{
-			base.UnloadContent();
-		}
+        public override void UnloadContent()
+        {
+            
+        }
 
-		public override void Update(GameTime gameTime, InputManager input)
-		{
-			timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
-			imageCount = (int)(timer % 0.5);
+        public override void Update(GameTime gameTime)
+        {
+            ElapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-			if (imageCount >= images.Count - 1 || input.KeyPressed(Keys.Escape))
-			{
-				ScreenManager.AddScreen(new TitleScreen());
-				ScreenManager.RemoveScreen(this);
-			}
-		}
+            if (ElapsedTime > 4)
+                ScreenStatus = "GOTO_MENUSCREEN_AND_FADE_OUT";
+            if (ElapsedTime > 6)
+                ScreenStatus = "DEAD";
+        }
 
-		public override void Draw(SpriteBatch sb)
-		{
-			sb.Draw(images[imageCount], new Vector2(), Color.White);
-		}
-	}
+        public override void Draw(SpriteBatch sb)
+        {
+            Vector2 imgpos = Vector2.Zero;
+            if (ScreenStatus == "RUNNING")
+                imgpos = new Vector2(20, 20);
+            if (ScreenStatus == "FADING_OUT")
+                imgpos = new Vector2(200, 20);
+            sb.Draw(SplashImage, imgpos, Color.White);
+        }
+    }
 }

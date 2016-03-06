@@ -9,27 +9,11 @@
     <Import_RootNamespace>LEJEU.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Level\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Screens\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Animation.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\FadeAnimation.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\InputManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Level\Level.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Level\LevelLoader.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Level\MapZonesManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Level\Platform.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Level\Player.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Main\Camera.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\Game1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\ResolutionManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\ScreenManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Screens\GamePlayScreen.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameScreen.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\Screen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuScreen.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Screens\SplashScreen.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Screens\TitleScreen.cs" />
   </ItemGroup>
 </Project>
