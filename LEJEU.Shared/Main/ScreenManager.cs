@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using LEJEU.Shared;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -32,42 +33,55 @@ namespace LEJEU.Shared
             }
         }
 
-        public void Update(GameTime gameTime)
+        public void Update(GameTime gameTime, InputManager input)
         {
-            foreach (Screen screen in ActiveScreens)
-            {
-                screen.Update(gameTime);
-            }
-
             for(int i = 0; i < ActiveScreens.Count; i++)
             { 
-                if(ActiveScreens[i].ScreenStatus.Contains("GOTO"))
+                if(ActiveScreens[i].ScreenMessage != null)
                 {
-                    /*
-                    When the screen asks for a new screen, just add and initialize it right away.
-                    */
-                    if(ActiveScreens[i].ScreenStatus.Contains("GOTO_MENUSCREEN"))
+                    int new_screen_index = i;
+
+                    if (ActiveScreens[i].ScreenMessage.NextScreen != null)
                     {
-                        ActiveScreens.Add(new MenuScreen());
-                        ActiveScreens[ActiveScreens.Count - 1].Initialize();
-                        ActiveScreens[ActiveScreens.Count - 1].LoadContent(Content);
+                        // When the screen asks for a new screen, just add and initialize it right away.
+                        ActiveScreens[i].ScreenMessage.NextScreen.Initialize();
+                        ActiveScreens[i].ScreenMessage.NextScreen.LoadContent(Content);
+
+                        // Insert the new screen in the stack, at the requested position.
+                        if (ActiveScreens[i].ScreenMessage.ScreenStackPos == TransitionMessage.ScreenStackPosEnum.BELOW)
+                        {
+                            ActiveScreens.Insert(i, ActiveScreens[i].ScreenMessage.NextScreen);
+                            new_screen_index = i + 1;
+                        }
+                        else if (ActiveScreens[i].ScreenMessage.ScreenStackPos == TransitionMessage.ScreenStackPosEnum.FRONT)
+                        {
+                            ActiveScreens.Insert(i + 1, ActiveScreens[i].ScreenMessage.NextScreen);
+                        }
+                        else if (ActiveScreens[i].ScreenMessage.ScreenStackPos == TransitionMessage.ScreenStackPosEnum.CUSTOM)
+                        {
+                            ActiveScreens.Insert(ActiveScreens[i].ScreenMessage.ScreenStackIndex, ActiveScreens[i].ScreenMessage.NextScreen);
+                            if(ActiveScreens[i].ScreenMessage.ScreenStackIndex <= i)
+                                new_screen_index = i + 1;
+                        }
                     }
 
-                    /*
-                    If the screen wants to fade out, change it's state.
-                    */
-                    if (ActiveScreens[i].ScreenStatus.Contains("FADE_OUT"))
-                        ActiveScreens[i].ScreenStatus = "FADING_OUT";
+
+                    // When the screen is done, remove it from the Screens list.
+                    if (ActiveScreens[new_screen_index].ScreenMessage.NextAction == TransitionMessage.NextActionEnum.DEAD)
+                    {
+                        ActiveScreens[new_screen_index].UnloadContent();
+                        ActiveScreens.Remove(ActiveScreens[new_screen_index]);
+                    }
+                    // When we treated the message, delete it so that we won't read it again next time.
+                    else ActiveScreens[new_screen_index].ScreenMessage = null; 
                 }
-                
-                /*
-                When the screen is done, remove it from the Screens list.
-                */
-                if (ActiveScreens[i].ScreenStatus.Contains("DEAD"))
-                {
-                    ActiveScreens[i].UnloadContent();
-                    ActiveScreens.Remove(ActiveScreens[i]);
-                }
+
+            }
+
+
+            foreach (Screen screen in ActiveScreens)
+            {
+                screen.Update(gameTime, input);
             }
         }
 
@@ -77,6 +91,45 @@ namespace LEJEU.Shared
             {
                 screen.Draw(sb);
             }
+        }
+    }
+
+
+
+    public class TransitionMessage
+    {
+        public Screen NextScreen;
+
+        public enum NextActionEnum
+        {
+            DEAD,
+            FADING_OUT
+        }
+        public NextActionEnum NextAction;
+
+        public enum ScreenStackPosEnum
+        {
+            BELOW,
+            FRONT,
+            CUSTOM // Custom number is chosen with ScreenStackIndex.
+        }
+        public ScreenStackPosEnum ScreenStackPos;
+        public int ScreenStackIndex;
+
+        public TransitionMessage(Screen next_screen, NextActionEnum next_action, ScreenStackPosEnum stack_pos, int screen_index = 0)
+        { // Complete transition toward a new screen
+            NextScreen = next_screen;
+            NextAction = next_action;
+            ScreenStackPos = stack_pos;
+            ScreenStackIndex = screen_index;
+        }
+
+        public TransitionMessage(NextActionEnum next_action = NextActionEnum.DEAD)
+        { // Just to say that the screen is dead
+            NextAction = next_action;
+
+            NextScreen = null;
+            ScreenStackPos = 0;
         }
     }
 }

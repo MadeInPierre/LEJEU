@@ -7,8 +7,8 @@ namespace LEJEU.Shared
 {
     public class ResolutionManager
     {
-        public Vector2 DeviceResolution;
-        public Vector2 VirtualResolution;
+        public static Vector2 DeviceResolution;
+        public static Vector2 VirtualResolution;
 
         GameWindow Window;
 
@@ -19,23 +19,27 @@ namespace LEJEU.Shared
 
         public void Initialize(GraphicsDeviceManager graphics)
         {
+            VirtualResolution = new Vector2(1920, 1080);
+            //HARDCODED
+            DeviceResolution = VirtualResolution;
 
-            DeviceResolution = new Vector2(graphics.GraphicsDevice.Viewport.Width,
-                                           graphics.GraphicsDevice.Viewport.Height);
+            //DeviceResolution = new Vector2(graphics.GraphicsDevice.Viewport.Width,
+            //                               graphics.GraphicsDevice.Viewport.Height);
             graphics.PreferredBackBufferWidth  = (int)DeviceResolution.X;
             graphics.PreferredBackBufferHeight = (int)DeviceResolution.Y;
-
+            
             graphics.IsFullScreen = false;
             graphics.ApplyChanges();
-
-            VirtualResolution = new Vector2(1920, 1080);
-
-            Console.WriteLine(DeviceResolution);
         }
 
         public void Update(GameTime gameTime)
         {
 
         }
+
+        /*
+        THINGS TO IMPLEMENT :
+            2D Matrix that scales the whole content evenly, with black bars on the side if the aspect ratio isn't right.
+        */
     }
 }

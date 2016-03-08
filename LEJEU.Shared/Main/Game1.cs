@@ -22,6 +22,7 @@ namespace LEJEU.Shared
 
         ScreenManager screenManager;
         ResolutionManager resolutionManager;
+        InputManager input;
 
 		public Game1()
 		{
@@ -30,7 +31,7 @@ namespace LEJEU.Shared
 
             screenManager = new ScreenManager();
             resolutionManager = new ResolutionManager(Window);
-
+            input = new InputManager();
             
             graphics.IsFullScreen = false;
 			graphics.ApplyChanges();
@@ -62,9 +63,10 @@ namespace LEJEU.Shared
 
 		protected override void Update(GameTime gameTime)
 		{
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
+            input.Update();
+            if (input.KeyDown(Keys.Escape)) this.Exit();
 
-            screenManager.Update(gameTime);
+            screenManager.Update(gameTime, input);
 
 			base.Update(gameTime);
 		}
@@ -75,6 +77,7 @@ namespace LEJEU.Shared
 			sb.Begin();
             {
                 GraphicsDevice.Clear(Color.CornflowerBlue);
+                if(input.KeyDown(Keys.A)) GraphicsDevice.Clear(Color.Black);
 
                 screenManager.Draw(sb);
 

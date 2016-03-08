@@ -9,7 +9,8 @@ namespace LEJEU.Shared
 {
     public class Screen
     {
-        public string ScreenStatus;
+        public TransitionMessage ScreenMessage;
+        protected string ScreenStatus;
 
         public virtual void Initialize()
         {
@@ -26,7 +27,7 @@ namespace LEJEU.Shared
 
         }
 
-        public virtual void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime, InputManager input)
         {
 
         }

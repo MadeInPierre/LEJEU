@@ -11,15 +11,17 @@ namespace LEJEU.Shared
     {
         Texture2D SplashImage;
         float ElapsedTime = 0;
+        float transp = 1;
 
         public override void Initialize()
         {
+            ScreenMessage = null;
             ScreenStatus = "RUNNING";
         }
 
         public override void LoadContent(ContentManager Content)
         {
-            SplashImage = Content.Load<Texture2D>("Splash/image1");
+            SplashImage = Content.Load<Texture2D>("Splash/studiomana_logo");
         }
 
         public override void UnloadContent()
@@ -27,24 +29,25 @@ namespace LEJEU.Shared
             
         }
 
-        public override void Update(GameTime gameTime)
+        public override void Update(GameTime gameTime, InputManager input)
         {
             ElapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            if (ElapsedTime > 4)
-                ScreenStatus = "GOTO_MENUSCREEN_AND_FADE_OUT";
-            if (ElapsedTime > 6)
-                ScreenStatus = "DEAD";
+            if (ScreenStatus == "RUNNING" && ElapsedTime > 4)
+            {
+                ScreenMessage = new TransitionMessage(new MenuScreen(), TransitionMessage.NextActionEnum.FADING_OUT, TransitionMessage.ScreenStackPosEnum.BELOW);
+                ScreenStatus = "FADING_OUT";
+            }
+            if (ScreenStatus == "FADING_OUT" && ElapsedTime > 6)
+                ScreenMessage = new TransitionMessage(TransitionMessage.NextActionEnum.DEAD);
+
+            if (ScreenStatus == "FADING_OUT")
+                transp = (float)(-0.5 * ElapsedTime + 3);
         }
 
         public override void Draw(SpriteBatch sb)
         {
-            Vector2 imgpos = Vector2.Zero;
-            if (ScreenStatus == "RUNNING")
-                imgpos = new Vector2(20, 20);
-            if (ScreenStatus == "FADING_OUT")
-                imgpos = new Vector2(200, 20);
-            sb.Draw(SplashImage, imgpos, Color.White);
+            sb.Draw(SplashImage, Vector2.Zero, Color.White * transp);
         }
     }
 }

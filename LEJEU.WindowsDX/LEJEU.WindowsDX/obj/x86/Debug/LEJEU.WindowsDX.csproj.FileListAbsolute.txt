@@ -510,3 +510,5 @@ C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.W
 C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.WindowsDX\bin\Windows\Debug\FarseerPhysics MonoGame.pdb
 C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.WindowsDX\bin\Windows\Debug\MonoGame.Framework.xml
 C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.WindowsDX\obj\x86\Debug\LEJEU.WindowsDX.csprojResolveAssemblyReference.cache
+C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.WindowsDX\bin\Windows\Debug\Content\Splash\studiomana_logo.xnb
+C:\Users\pierr\Documents\Programming\LEJEU Project\LEJEU\LEJEU.WindowsDX\LEJEU.WindowsDX\bin\Windows\Debug\Content\Splash\Menu.xnb

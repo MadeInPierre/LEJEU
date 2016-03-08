@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,32 +10,35 @@ namespace LEJEU.Shared
 {
     class MenuScreen : Screen
     {
-        Texture2D SplashImage;
+        Texture2D MenuImage;
         float ElapsedTime = 0;
-
+        
         public override void Initialize()
         {
+            ScreenMessage = null;
             ScreenStatus = "RUNNING";
         }
 
         public override void LoadContent(ContentManager Content)
         {
-            SplashImage = Content.Load<Texture2D>("Splash/image1");
+            MenuImage = Content.Load<Texture2D>("Splash/Menu");
         }
 
-        public override void Update(GameTime gameTime)
+        public override void Update(GameTime gameTime, InputManager input)
         {
             ElapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if(ElapsedTime > 6)
+
+
+            if (input.KeyPressed(Keys.Enter))
             {
                 // Send message to ScreenManager, transition on.
-                ScreenStatus = "GOTO_MENUSCREEN_AND_DEAD";
+                ScreenMessage = new TransitionMessage(new PlayScreen(), TransitionMessage.NextActionEnum.DEAD, TransitionMessage.ScreenStackPosEnum.FRONT);
             }
         }
 
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(SplashImage, new Vector2(200, 400), Color.White);
+            sb.Draw(MenuImage, Vector2.Zero, Color.White);
         }
     }
 }
