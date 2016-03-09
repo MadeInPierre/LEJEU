@@ -12,11 +12,12 @@ namespace LEJEU.Shared
     {
         List<Screen> ActiveScreens;
         ContentManager Content;
+        GraphicsDevice GD;
 
         public void Initialize()
         {
             ActiveScreens = new List<Screen>();
-            ActiveScreens.Add(new SplashScreen());
+            ActiveScreens.Add(new PlayScreen());
 
             foreach (Screen screen in ActiveScreens)
             {
@@ -24,12 +25,13 @@ namespace LEJEU.Shared
             }
         }
 
-        public void LoadContent(ContentManager Content)
+        public void LoadContent(ContentManager Content, GraphicsDevice GD)
         {
             this.Content = Content;
+            this.GD = GD;
             foreach (Screen screen in ActiveScreens)
             {
-                screen.LoadContent(Content);
+                screen.LoadContent(Content, GD);
             }
         }
 
@@ -45,7 +47,7 @@ namespace LEJEU.Shared
                     {
                         // When the screen asks for a new screen, just add and initialize it right away.
                         ActiveScreens[i].ScreenMessage.NextScreen.Initialize();
-                        ActiveScreens[i].ScreenMessage.NextScreen.LoadContent(Content);
+                        ActiveScreens[i].ScreenMessage.NextScreen.LoadContent(Content, GD);
 
                         // Insert the new screen in the stack, at the requested position.
                         if (ActiveScreens[i].ScreenMessage.ScreenStackPos == TransitionMessage.ScreenStackPosEnum.BELOW)

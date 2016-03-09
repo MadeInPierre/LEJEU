@@ -9,11 +9,14 @@
     <Import_RootNamespace>LEJEU.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Helpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\InputManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\RayCastHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\Game1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\ResolutionManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\Screen.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Play\Player.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuScreen.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Screens\PlayScreen.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Screens\SplashScreen.cs" />

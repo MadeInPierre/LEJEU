@@ -19,7 +19,7 @@ namespace LEJEU.Shared
             ScreenStatus = "RUNNING";
         }
 
-        public override void LoadContent(ContentManager Content)
+        public override void LoadContent(ContentManager Content, GraphicsDevice GD)
         {
             MenuImage = Content.Load<Texture2D>("Splash/Menu");
         }

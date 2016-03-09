@@ -188,3 +188,14 @@
 /processorParam:TextureFormat=Color
 /build:Splash/Menu.png
 
+#begin Maps/Chapter1/Level1.1/zone1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Maps/Chapter1/Level1.1/zone1.png
+

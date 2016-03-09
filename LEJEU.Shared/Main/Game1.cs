@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Media;
 using System.Xml;
 
 using FarseerPhysics.DebugView;
+using System.Threading;
 
 namespace LEJEU.Shared
 {
@@ -53,7 +54,7 @@ namespace LEJEU.Shared
 			sb = new SpriteBatch(GraphicsDevice);
 			font = Content.Load<SpriteFont>("Font1");
 
-            screenManager.LoadContent(Content);
+            screenManager.LoadContent(Content, GraphicsDevice);
 		}
 
 		protected override void UnloadContent()
@@ -84,7 +85,7 @@ namespace LEJEU.Shared
                 sb.DrawString(font, ((int)(1 / (float)gameTime.ElapsedGameTime.TotalSeconds)).ToString(), new Vector2(GraphicsDevice.Viewport.Width - 40, 0), Color.Blue);
             }
 			sb.End();
-
+            
             base.Draw(gameTime);
 		}
 	}

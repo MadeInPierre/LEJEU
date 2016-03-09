@@ -17,7 +17,7 @@ namespace LEJEU.Shared
 
         }
 
-        public virtual void LoadContent(ContentManager Content)
+        public virtual void LoadContent(ContentManager Content, GraphicsDevice GD)
         {
 
         }

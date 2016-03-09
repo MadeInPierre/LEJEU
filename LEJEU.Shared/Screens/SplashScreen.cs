@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,7 +20,7 @@ namespace LEJEU.Shared
             ScreenStatus = "RUNNING";
         }
 
-        public override void LoadContent(ContentManager Content)
+        public override void LoadContent(ContentManager Content, GraphicsDevice GD)
         {
             SplashImage = Content.Load<Texture2D>("Splash/studiomana_logo");
         }
@@ -33,7 +34,7 @@ namespace LEJEU.Shared
         {
             ElapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            if (ScreenStatus == "RUNNING" && ElapsedTime > 4)
+            if (ScreenStatus == "RUNNING" && (ElapsedTime > 4 || input.KeyPressed(Keys.Enter)))
             {
                 ScreenMessage = new TransitionMessage(new MenuScreen(), TransitionMessage.NextActionEnum.FADING_OUT, TransitionMessage.ScreenStackPosEnum.BELOW);
                 ScreenStatus = "FADING_OUT";
