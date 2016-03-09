@@ -11,7 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Helpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\InputManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\RayCastHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\RayCast.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\Game1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\ResolutionManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Main\Screen.cs" />

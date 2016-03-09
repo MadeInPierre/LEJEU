@@ -13,7 +13,7 @@ namespace LEJEU.Shared
     public class Line
     {
         Texture2D pixel;
-        Vector2 p1, p2; //this will be the position in the center of the line
+        public Vector2 p1, p2; //this will be the position in the center of the line
         int length, thickness; //length and thickness of the line, or width and height of rectangle
         Rectangle rect; //where the line will be drawn
         float rotation; // rotation of the line, with axis at the center of the line
@@ -25,6 +25,15 @@ namespace LEJEU.Shared
         {
             pixel = new Texture2D(GD, 1, 1, false, SurfaceFormat.Color);
             pixel.SetData(new Color[] { Color.White});
+            this.p1 = p1;
+            this.p2 = p2;
+            this.thickness = thickness;
+            this.color = color;
+        }
+        public Line(GraphicsDevice GD)
+        {
+            pixel = new Texture2D(GD, 1, 1, false, SurfaceFormat.Color);
+            pixel.SetData(new Color[] { Color.White });
             this.p1 = p1;
             this.p2 = p2;
             this.thickness = thickness;
@@ -43,6 +52,29 @@ namespace LEJEU.Shared
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(pixel, rect, null, color, rotation, Vector2.Zero, SpriteEffects.None, 0.0f);
+        }
+
+        public void SetPosition(Vector2 start, Vector2 end)
+        {
+            p1 = start;
+            p2 = end;
+        }
+        public void SetPosition(float startX, float startY, float endX, float endY)
+        {
+            p1.X = startX;
+            p1.Y = startY;
+            p2.X = endX;
+            p2.Y = endY;
+
+            Update();
+        }
+        public void SetThickness(int value)
+        {
+            thickness = value;
+        }
+        public void SetColor(Color value)
+        {
+            color = value;
         }
 
         //this returns the angle between two points in radians 

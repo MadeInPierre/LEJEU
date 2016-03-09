@@ -17,7 +17,7 @@ namespace LEJEU.Shared
         public void Initialize()
         {
             ActiveScreens = new List<Screen>();
-            ActiveScreens.Add(new PlayScreen());
+            ActiveScreens.Add(new SplashScreen());
 
             foreach (Screen screen in ActiveScreens)
             {

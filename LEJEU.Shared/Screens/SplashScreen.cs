@@ -38,12 +38,13 @@ namespace LEJEU.Shared
             {
                 ScreenMessage = new TransitionMessage(new MenuScreen(), TransitionMessage.NextActionEnum.FADING_OUT, TransitionMessage.ScreenStackPosEnum.BELOW);
                 ScreenStatus = "FADING_OUT";
+                ElapsedTime = 0;
             }
-            if (ScreenStatus == "FADING_OUT" && ElapsedTime > 6)
+            if (ScreenStatus == "FADING_OUT" && ElapsedTime > 2)
                 ScreenMessage = new TransitionMessage(TransitionMessage.NextActionEnum.DEAD);
 
             if (ScreenStatus == "FADING_OUT")
-                transp = (float)(-0.5 * ElapsedTime + 3);
+                transp = (float)(-0.5 * ElapsedTime + 1);
         }
 
         public override void Draw(SpriteBatch sb)

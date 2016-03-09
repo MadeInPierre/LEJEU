@@ -18,6 +18,8 @@ namespace LEJEU.Shared
         public  Vector2 playerPos;
         private PlayerRaycastWeb rayWeb;
 
+        private Line lineTool;
+
         public Player(World world)
         {
             playerPos = new Vector2(970, 780);
@@ -34,6 +36,7 @@ namespace LEJEU.Shared
         public void LoadContent(ContentManager Content, GraphicsDevice GD)
         {
             this.GD = GD;
+            lineTool = new Line(GD);
         }
 
         public void Update(GameTime gameTime, InputManager input, World world)
@@ -56,21 +59,19 @@ namespace LEJEU.Shared
         public void Draw(SpriteBatch sb)
         {
             // Drawing the bottom lines that represent the raycasts
-            Line line = new Line(new Vector2(playerPos.X - 40, playerPos.Y + 128 / 2), new Vector2(playerPos.X - 40, playerPos.Y + 128 / 2 + 100), 1, Color.White, GD);
-            line.Update(); line.Draw(sb);
-            line      = new Line(new Vector2(playerPos.X,      playerPos.Y + 128 / 2), new Vector2(playerPos.X,      playerPos.Y + 128 / 2 + 100), 1, Color.White, GD);
-            line.Update(); line.Draw(sb);
-            line      = new Line(new Vector2(playerPos.X + 40, playerPos.Y + 128 / 2), new Vector2(playerPos.X + 40, playerPos.Y + 128 / 2 + 100), 1, Color.White, GD);
-            line.Update(); line.Draw(sb);
+            lineTool.SetColor(Color.White); lineTool.SetThickness(1);
+            lineTool.SetPosition(playerPos.X - 40, playerPos.Y + 128 / 2, playerPos.X - 40, playerPos.Y + 128 / 2 + 100); lineTool.Draw(sb);
+            lineTool.SetPosition(playerPos.X     , playerPos.Y + 128 / 2, playerPos.X     , playerPos.Y + 128 / 2 + 100); lineTool.Draw(sb);
+            lineTool.SetPosition(playerPos.X + 40, playerPos.Y + 128 / 2, playerPos.X + 40, playerPos.Y + 128 / 2 + 100); lineTool.Draw(sb);
 
             // Drawing the points detected by the bottom raycasts
+            lineTool.SetColor(Color.Red); lineTool.SetThickness(10);
             foreach (List<Vector2> rays in rayWeb.GetBottomContacts())
             {
                 foreach (Vector2 point in rays)
                 {
-                    Line collisionLine = new Line(new Vector2(point.X - 2, point.Y - 5), new Vector2(point.X + 2, point.Y - 5), 10, Color.Red, GD);
-                    collisionLine.Update();
-                    collisionLine.Draw(sb);
+                    lineTool.SetPosition(point.X - 2, point.Y - 5, point.X + 2, point.Y - 5);
+                    lineTool.Draw(sb);
                 }
             }
             
