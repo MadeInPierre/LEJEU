@@ -34,10 +34,6 @@ namespace LEJEU.Shared
         {
             pixel = new Texture2D(GD, 1, 1, false, SurfaceFormat.Color);
             pixel.SetData(new Color[] { Color.White });
-            this.p1 = p1;
-            this.p2 = p2;
-            this.thickness = thickness;
-            this.color = color;
         }
 
         public void Update()

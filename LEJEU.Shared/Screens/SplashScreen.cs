@@ -27,7 +27,7 @@ namespace LEJEU.Shared
 
         public override void UnloadContent()
         {
-            
+            SplashImage.Dispose();
         }
 
         public override void Update(GameTime gameTime, InputManager input)

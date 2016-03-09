@@ -24,6 +24,11 @@ namespace LEJEU.Shared
             MenuImage = Content.Load<Texture2D>("Splash/Menu");
         }
 
+        public override void UnloadContent()
+        {
+            MenuImage.Dispose();
+        }
+
         public override void Update(GameTime gameTime, InputManager input)
         {
             ElapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;

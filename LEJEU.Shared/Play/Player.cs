@@ -15,7 +15,7 @@ namespace LEJEU.Shared
         private GraphicsDevice GD;
 
         private Body playerBody;
-        public  Vector2 playerPos;
+        public  Vector2 playerPos, playerSize;
         private PlayerRaycastWeb rayWeb;
 
         private Line lineTool;
@@ -23,9 +23,11 @@ namespace LEJEU.Shared
         public Player(World world)
         {
             playerPos = new Vector2(970, 780);
-            playerBody = BodyFactory.CreateRectangle(world, 80f, 128f, 1f, playerPos);
+            playerSize = new Vector2(80, 128);
 
-            rayWeb = new PlayerRaycastWeb();
+            playerBody = BodyFactory.CreateRectangle(world, playerSize.X, playerSize.Y, 1f, playerPos);
+
+            rayWeb = new PlayerRaycastWeb(world, playerPos, playerSize);
         }
 
         public void Initialize()
@@ -51,7 +53,7 @@ namespace LEJEU.Shared
                 playerPos.X += 250 * (float)gameTime.ElapsedGameTime.TotalSeconds;
             playerBody.Position = playerPos;
 
-            rayWeb.Update(world, playerPos);
+            rayWeb.Update(world, playerPos, playerSize);
         }
 
         
@@ -66,9 +68,9 @@ namespace LEJEU.Shared
 
             // Drawing the points detected by the bottom raycasts
             lineTool.SetColor(Color.Red); lineTool.SetThickness(10);
-            foreach (List<Vector2> rays in rayWeb.GetBottomContacts())
+            foreach (Vector2 point in rayWeb.GetBottomClosestContact())
             {
-                foreach (Vector2 point in rays)
+                //foreach (Vector2 point in rays)
                 {
                     lineTool.SetPosition(point.X - 2, point.Y - 5, point.X + 2, point.Y - 5);
                     lineTool.Draw(sb);
@@ -82,22 +84,28 @@ namespace LEJEU.Shared
     {
         RayCast BottomLeft, BottomCenter, BottomRight;
 
-        public PlayerRaycastWeb()
+        public PlayerRaycastWeb(World world, Vector2 playerPos, Vector2 playerSize)
         {
-
+            BottomLeft = new RayCast(world,   new Vector2(playerPos.X - 40, playerPos.Y + playerSize.Y / 2),  new Vector2(playerPos.X - 40, playerPos.Y + playerSize.Y / 2 + 100));
+            BottomCenter = new RayCast(world, new Vector2(playerPos.X,      playerPos.Y + playerSize.Y / 2),  new Vector2(playerPos.X,      playerPos.Y + playerSize.Y / 2 + 100));
+            BottomRight = new RayCast(world,  new Vector2(playerPos.X + 40, playerPos.Y + playerSize.Y / 2),  new Vector2(playerPos.X + 40, playerPos.Y + playerSize.Y / 2 + 100));
         }
 
-        public void Update(World world, Vector2 playerPos)
+        public void Update(World world, Vector2 playerPos, Vector2 playerSize)
         {
-            Vector2 basePos = new Vector2(playerPos.X, playerPos.Y + 128 / 2);
-            BottomLeft = new RayCast(world, new Vector2(basePos.X - 40, basePos.Y), new Vector2(basePos.X - 40, basePos.Y + 100));
-            BottomCenter = new RayCast(world, new Vector2(basePos.X, basePos.Y), new Vector2(basePos.X, basePos.Y + 100));
-            BottomRight = new RayCast(world, new Vector2(basePos.X + 40, basePos.Y), new Vector2(basePos.X + 40, basePos.Y + 100));
+            BottomLeft.Refresh(   world, new Vector2(playerPos.X - 40, playerPos.Y + playerSize.Y / 2), new Vector2(playerPos.X - 40, playerPos.Y + playerSize.Y / 2 + 100));
+            BottomCenter.Refresh( world, new Vector2(playerPos.X,      playerPos.Y + playerSize.Y / 2), new Vector2(playerPos.X,      playerPos.Y + playerSize.Y / 2 + 100));
+            BottomRight.Refresh(  world, new Vector2(playerPos.X + 40, playerPos.Y + playerSize.Y / 2), new Vector2(playerPos.X + 40, playerPos.Y + playerSize.Y / 2 + 100));
         } 
 
         public List<List<Vector2>> GetBottomContacts()
         {
-            return new List<List<Vector2>>() { BottomLeft.GetClosestContacts(), BottomCenter.GetClosestContacts(), BottomRight.GetClosestContacts() };
+            return new List<List<Vector2>>() { BottomLeft.GetContacts(), BottomCenter.GetContacts(), BottomRight.GetContacts() };
+        }
+
+        public List<Vector2> GetBottomClosestContact()
+        {
+            return new List<Vector2>() { BottomLeft.GetClosest(), BottomCenter.GetClosest(), BottomRight.GetClosest() };
         }
     }
 }
