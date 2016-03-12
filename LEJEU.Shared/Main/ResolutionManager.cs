@@ -22,9 +22,7 @@ namespace LEJEU.Shared
             VirtualResolution = new Vector2(1920, 1080);
             //HARDCODED
             DeviceResolution = VirtualResolution;
-
-            //DeviceResolution = new Vector2(graphics.GraphicsDevice.Viewport.Width,
-            //                               graphics.GraphicsDevice.Viewport.Height);
+            
             graphics.PreferredBackBufferWidth  = (int)DeviceResolution.X;
             graphics.PreferredBackBufferHeight = (int)DeviceResolution.Y;
             

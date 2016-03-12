@@ -26,8 +26,16 @@ namespace LEJEU.Shared
             playerSize = new Vector2(80, 128);
 
             playerBody = BodyFactory.CreateRectangle(world, playerSize.X, playerSize.Y, 1f, playerPos);
+            playerBody.IsSensor = true;
+            playerBody.OnCollision += PlayerBody_OnCollision;
 
             rayWeb = new PlayerRaycastWeb(world, playerPos, playerSize);
+        }
+
+        private bool PlayerBody_OnCollision(Fixture fixtureA, Fixture fixtureB, FarseerPhysics.Dynamics.Contacts.Contact contact)
+        {
+            Console.WriteLine("hello");
+            return true;
         }
 
         public void Initialize()
